@@ -141,7 +141,10 @@ apple.addEventListener('pointermove',e=>{if(!down)return;apple.style.left=(bx+(e
 apple.addEventListener('pointerup',e=>{if(!down)return;down=false;apple.classList.remove('dragging');apple.removeAttribute('style');show('home')});
 apple.addEventListener('click',()=>show('home'));
 
-/* UPDATE 9 — exact click map for locked 1586 × 992 homepage PNG */
+/* UPDATE 9 — locked homepage click map.
+   Desktop/landscape keep the established viewport transform.
+   Portrait mobile uses one shared scroll-canvas coordinate system, so the
+   artwork and every transparent hit area always move together. */
 const HOME_W=1536, HOME_H=992, homeImg=document.querySelector('.home-bg');
 const HOME_NAV_BOXES=[
  {x:790,y:0,w:58,h:49},{x:850,y:0,w:78,h:49},{x:930,y:0,w:105,h:49},{x:1036,y:0,w:120,h:49},{x:1157,y:0,w:164,h:49},{x:1320,y:0,w:104,h:49},{x:1424,y:0,w:110,h:49}
@@ -153,62 +156,57 @@ const HOME_CARD_BOXES=[
 const HOME_MEDIA_BOXES={note:{x:25,y:385,w:205,h:410},short:{x:1320,y:680,w:180,h:135}};
 const HOME_CREDITS_BOX={x:1400,y:865,w:120,h:65};
 
+function portraitMobileHome(){
+  return window.matchMedia('(max-width:699px) and (orientation:portrait)').matches;
+}
 function nativeHomeTransform(){
-  /* Map the transparent hit areas to the ACTUAL rendered homepage image.
-     The approved artwork is 1586 px wide, while the historical click-map
-     coordinates were authored on a 1536 × 992 reference.  Using separate
-     X/Y scales keeps every word/card aligned on phones as well as desktop. */
-  const rect=homeImg?.getBoundingClientRect();
-  if(rect && rect.width && rect.height){
-    return {
-      scaleX:rect.width/HOME_W,
-      scaleY:rect.height/HOME_H,
-      ox:rect.left + window.scrollX,
-      oy:rect.top + window.scrollY
-    };
+  if(portraitMobileHome()){
+    /* The interaction layer is the same 1536:992 canvas as the artwork.
+       Scroll offsets are deliberately NOT used: the whole canvas scrolls. */
+    const canvas=document.querySelector('.home-interactions');
+    const cw=canvas?.clientWidth || (window.innerHeight*HOME_W/HOME_H);
+    const ch=cw*HOME_H/HOME_W;
+    return {scaleX:cw/HOME_W,scaleY:ch/HOME_H,ox:0,oy:0};
   }
   const cw=window.innerWidth, ch=window.innerHeight;
   const scale=Math.min(cw/HOME_W,ch/HOME_H);
-  return {scaleX:scale,scaleY:scale,ox:(cw-HOME_W*scale)/2,oy:(ch-HOME_H*scale)/2};
+  const rw=HOME_W*scale, rh=HOME_H*scale;
+  return {scaleX:scale,scaleY:scale,ox:(cw-rw)/2,oy:(ch-rh)/2};
 }
 function placeNative(el,b){
   if(!el||!b)return;
   const {scaleX,scaleY,ox,oy}=nativeHomeTransform();
   Object.assign(el.style,{
-    left:(ox+b.x*scaleX)+'px',
-    top:(oy+b.y*scaleY)+'px',
-    width:(b.w*scaleX)+'px',
-    height:(b.h*scaleY)+'px'
+    left:(ox+b.x*scaleX)+'px',top:(oy+b.y*scaleY)+'px',
+    width:(b.w*scaleX)+'px',height:(b.h*scaleY)+'px'
   });
 }
 function positionHomeInteractions(){
   const home=document.getElementById('home');
   if(!homeImg||!home?.classList.contains('active'))return;
-
   placeNative(document.querySelector('.home-brand-hit'),HOME_BRAND_BOX);
-document.querySelectorAll('.home-nav-hit').forEach((el,i)=>{
-    placeNative(el,HOME_NAV_BOXES[i]);
-  });
-
-  document.querySelectorAll('.home-card-hit').forEach((el,i)=>{
-    placeNative(el,HOME_CARD_BOXES[i]);
-  });
-
+  document.querySelectorAll('.home-nav-hit').forEach((el,i)=>placeNative(el,HOME_NAV_BOXES[i]));
+  document.querySelectorAll('.home-card-hit').forEach((el,i)=>placeNative(el,HOME_CARD_BOXES[i]));
   placeNative(document.querySelector('[data-home-role="note"]'),HOME_MEDIA_BOXES.note);
   placeNative(document.querySelector('[data-home-role="short"]'),HOME_MEDIA_BOXES.short);
   placeNative(document.querySelector('.credits-hit'),HOME_CREDITS_BOX);
 
-  if(window.innerWidth < 700 && window.innerHeight > window.innerWidth && !home.dataset.mobileCentered){
+  if(portraitMobileHome() && !home.dataset.mobileCentered){
     requestAnimationFrame(()=>{
       home.scrollLeft=Math.max(0,(home.scrollWidth-home.clientWidth)/2);
+      home.scrollTop=0;
       home.dataset.mobileCentered='1';
     });
   }
 }
-window.addEventListener('resize',positionHomeInteractions);
+function resetHomeLayoutForViewport(){
+  const home=document.getElementById('home');
+  if(home) delete home.dataset.mobileCentered;
+  requestAnimationFrame(positionHomeInteractions);
+}
+window.addEventListener('resize',resetHomeLayoutForViewport);
+window.addEventListener('orientationchange',()=>setTimeout(resetHomeLayoutForViewport,120));
 homeImg?.addEventListener('load',positionHomeInteractions);
-
-
 
 /* ============================================================
    V7.3 — Kerala & Beyond
@@ -810,6 +808,27 @@ function renderCredits(){const c=CONTENT?.credits||{};const t=document.getElemen
 function openCredits(){document.getElementById('creditsModal')?.classList.add('open');document.getElementById('creditsModal')?.setAttribute('aria-hidden','false')}
 function closeCredits(){document.getElementById('creditsModal')?.classList.remove('open');document.getElementById('creditsModal')?.setAttribute('aria-hidden','true')}
 document.getElementById('creditsHit')?.addEventListener('click',openCredits);document.getElementById('creditsClose')?.addEventListener('click',closeCredits);document.getElementById('creditsModal')?.addEventListener('click',e=>{if(e.target.id==='creditsModal')closeCredits()});
+/* Mobile interior navigation — direct page links, independent of the artwork hit-map. */
+function installMobileMenu(){
+  if(document.getElementById('mobileMenuToggle'))return;
+  const toggle=document.createElement('button');
+  toggle.id='mobileMenuToggle'; toggle.className='mobile-menu-toggle'; toggle.type='button';
+  toggle.setAttribute('aria-label','Open navigation'); toggle.setAttribute('aria-expanded','false');
+  toggle.innerHTML='<span></span><span></span><span></span>';
+
+  const panel=document.createElement('aside');
+  panel.id='mobileMenuPanel'; panel.className='mobile-menu-panel'; panel.setAttribute('aria-hidden','true');
+  const items=[['story','LOVE'],['venue','THE PLACE'],['rituals','THE RITUALS'],['days','THE THREE DAYS'],['kerala','KERALA & BEYOND'],['care','RECEPTION'],['cabinet','TREASURE']];
+  panel.innerHTML='<div class="mobile-menu-heading">Sariga & Stefano</div>'+items.map(([id,label])=>`<button type="button" data-mobile-go="${id}">${label}</button>`).join('');
+  document.body.append(toggle,panel);
+
+  const close=()=>{panel.classList.remove('open');toggle.classList.remove('open');toggle.setAttribute('aria-expanded','false');panel.setAttribute('aria-hidden','true')};
+  toggle.addEventListener('click',()=>{const open=!panel.classList.contains('open');panel.classList.toggle('open',open);toggle.classList.toggle('open',open);toggle.setAttribute('aria-expanded',String(open));panel.setAttribute('aria-hidden',String(!open))});
+  panel.querySelectorAll('[data-mobile-go]').forEach(b=>b.addEventListener('click',()=>{close();show(b.dataset.mobileGo)}));
+  window.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+}
+installMobileMenu();
+
 loadContent();
 
 
