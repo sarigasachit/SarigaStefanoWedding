@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Sariga &amp; Stefano — Creator Mode</title>
+<link href="creator.css?v=20mediarestore" rel="stylesheet"/>
+</head>
+<body>
+<div class="lock" id="lock">
+<div class="lockbox">
+<h1>Creator Mode</h1>
+<p class="note">Edit the website content without changing the locked homepage artwork.</p>
+<input id="password" placeholder="Creator password" type="password"/>
+<div style="height:10px"></div>
+<button id="unlock">Enter Creator Mode</button>
+<p class="note" id="lockMsg"></p>
+</div>
+</div>
+<div class="creator-shell" hidden="" id="editor">
+<aside class="creator-sidebar">
+<div class="creator-title">Sariga &amp; Stefano</div>
+<div class="creator-sub">Creator Mode</div>
+<button class="creator-tab active" data-panel="general">General</button>
+<button class="creator-tab" data-panel="story">Love</button>
+<button class="creator-tab" data-panel="venue">The Place</button>
+<button class="creator-tab" data-panel="rituals">The Rituals</button>
+<button class="creator-tab" data-panel="days">The Three Days</button>
+<button class="creator-tab" data-panel="kerala">Kerala &amp; Beyond</button>
+<button class="creator-tab" data-panel="care">Reception</button>
+<button class="creator-tab" data-panel="cabinet">Treasure</button>
+<button class="creator-tab" data-panel="preview">Preview</button>
+</aside>
+<main class="creator-main">
+<div class="top">
+<div>
+<b>Creator Mode</b>
+<div class="note">Every sub-page now has its own editor. Uploaded videos/subtitles are stored locally in this browser.</div>
+</div>
+<div class="actions">
+<button id="saveLocal">Save</button>
+<button class="secondary" id="downloadJson">Download content.json</button>
+<button class="secondary" id="resetDraft">Reset draft</button>
+</div>
+</div>
+<section class="creator-panel active" data-panel-view="general">
+<div class="section">
+<h2>General</h2>
+<div class="field"><label>Couple names</label><input data-path="site.names"/></div>
+<div class="field"><label>Dates</label><input data-path="site.dates"/></div>
+<div class="field"><label>Venue line</label><input data-path="site.venue"/></div>
+<div class="field"><label>Tagline</label><input data-path="site.tagline"/></div>
+<div class="field"><label>Footer</label><input data-path="site.footer"/></div>
+</div>
+<div class="section">
+<h2>Opening Page</h2>
+<div class="field"><label>Quote</label><textarea data-path="intro.quote"></textarea></div>
+<div class="field"><label>Apple prompt</label><input data-path="intro.grab"/></div>
+<div class="field"><label>Lower note</label><textarea data-path="intro.note"></textarea></div>
+</div>
+<div class="section">
+<h2>Top Navigation</h2>
+<div id="navEditor"></div>
+</div>
+<div class="section"><h2>Credits</h2><div class="field"><label>Credits title</label><input data-path="credits.title"/></div><div class="field"><label>Credits text</label><textarea class="large-text" data-path="credits.body"></textarea></div></div>
+<div class="section">
+<h2>Homepage Films</h2>
+<p class="note">These are the two films opened from the homepage: “GNOTHI SEAUTON” on the left and “TAT TVAM ASI” on the right. Uploading here stores the media locally in this browser, exactly like the sub-page videos.</p>
+<div class="subsection">
+<h3>GNOTHI SEAUTON</h3>
+<div class="field"><label>Small heading</label><input data-path="homeMedia.note.kicker"/></div>
+<div class="field"><label>Large heading</label><input data-path="homeMedia.note.title" placeholder="A letter in moving images"/></div>
+<div class="field"><label>Reference / note (optional)</label><textarea data-path="homeMedia.note.reference"></textarea></div>
+<div class="field"><label>Reference URL (optional)</label><input data-path="homeMedia.note.referenceUrl"/></div>
+<div class="upload-grid">
+<div class="upload-box">
+<label>Video file</label>
+<input accept="video/mp4,video/webm,video/ogg" data-video-upload="home-note" type="file"/>
+<div class="upload-status" data-media-status="home-note"></div>
+</div>
+<div class="upload-box">
+<label>Subtitle file (optional)</label>
+<input accept=".vtt,.srt,text/vtt,application/x-subrip" data-subtitle-upload="home-note" type="file"/>
+<div class="upload-status" data-sub-status="home-note"></div>
+</div>
+</div>
+<div class="actions media-actions">
+<button class="secondary" data-clear-media="home-note">Remove uploaded video/subtitles</button>
+</div>
+</div>
+<div class="subsection">
+<h3>TAT TVAM ASI</h3>
+<div class="field"><label>Small heading</label><input data-path="homeMedia.short.kicker"/></div>
+<div class="field"><label>Large heading</label><input data-path="homeMedia.short.title" placeholder="A small film for our guests"/></div>
+<div class="field"><label>Reference / note (optional)</label><textarea data-path="homeMedia.short.reference"></textarea></div>
+<div class="field"><label>Reference URL (optional)</label><input data-path="homeMedia.short.referenceUrl"/></div>
+<div class="upload-grid">
+<div class="upload-box">
+<label>Video file</label>
+<input accept="video/mp4,video/webm,video/ogg" data-video-upload="home-short" type="file"/>
+<div class="upload-status" data-media-status="home-short"></div>
+</div>
+<div class="upload-box">
+<label>Subtitle file (optional)</label>
+<input accept=".vtt,.srt,text/vtt,application/x-subrip" data-subtitle-upload="home-short" type="file"/>
+<div class="upload-status" data-sub-status="home-short"></div>
+</div>
+</div>
+<div class="actions media-actions">
+<button class="secondary" data-clear-media="home-short">Remove uploaded video/subtitles</button>
+</div>
+</div>
+</div>
+</section>
+<section class="creator-panel" data-panel-view="story">
+<div class="section">
+<h2>Love — Page Text</h2>
+<div class="field"><label>Page title</label><input data-path="pages.story.title"/></div>
+<div class="field"><label>Small heading / kicker</label><input data-path="pages.story.kicker"/></div>
+<div class="field"><label>Body text</label><textarea class="large-text" data-path="pages.story.body"></textarea></div>
+</div>
+<div class="section">
+<h2>Love — Video &amp; Subtitles</h2>
+<p class="note">Upload an MP4/WebM video. Subtitle files may be WebVTT (.vtt) or SubRip (.srt); SRT is converted automatically to WebVTT for browser playback.</p>
+<div class="field"><label>Video title / caption</label><input data-path="pages.story.mediaTitle"/></div>
+<div class="field"><label>Reference / citation text</label><textarea data-path="pages.story.mediaReference"></textarea></div>
+<div class="field"><label>Reference URL (optional)</label><input data-path="pages.story.mediaReferenceUrl"/></div>
+<div class="upload-grid">
+<div class="upload-box">
+<label>Video file</label>
+<input accept="video/mp4,video/webm,video/ogg" data-video-upload="page-story" type="file"/>
+<div class="upload-status" data-media-status="page-story"></div>
+</div>
+<div class="upload-box">
+<label>Subtitle file</label>
+<input accept=".vtt,.srt,text/vtt,application/x-subrip" data-subtitle-upload="page-story" type="file"/>
+<div class="upload-status" data-sub-status="page-story"></div>
+</div>
+</div>
+<div class="actions media-actions">
+<button class="secondary" data-clear-media="page-story">Remove uploaded video/subtitles</button>
+</div>
+</div>
+<div class="section"><h2>Love — Guest Answer</h2><div class="field"><label>Question title</label><input data-path="loveResponse.title"/></div><div class="field"><label>Prompt</label><textarea data-path="loveResponse.prompt"></textarea></div><div class="field"><label>Answer placeholder</label><input data-path="loveResponse.placeholder"/></div><div class="field"><label>Send button</label><input data-path="loveResponse.sendLabel"/></div><div class="field"><label>Submission endpoint (optional)</label><input data-path="loveResponse.endpoint" placeholder="Google Forms formResponse URL or other POST endpoint"/></div><div class="field"><label>Answer field name (optional)</label><input data-path="loveResponse.fieldName" placeholder="e.g. entry.123456789"/></div></div>
+</section>
+<section class="creator-panel" data-panel-view="venue">
+<div class="section">
+<h2>The Place — Page Text</h2>
+<div class="field"><label>Page title</label><input data-path="pages.venue.title"/></div>
+<div class="field"><label>Small heading / kicker</label><input data-path="pages.venue.kicker"/></div>
+<div class="field"><label>Body text</label><textarea class="large-text" data-path="pages.venue.body"></textarea></div>
+</div>
+<div class="section">
+<h2>The Place — Video &amp; Subtitles</h2>
+<p class="note">Upload an MP4/WebM video. Subtitle files may be WebVTT (.vtt) or SubRip (.srt); SRT is converted automatically to WebVTT for browser playback.</p>
+<div class="field"><label>Video title / caption</label><input data-path="pages.venue.mediaTitle"/></div>
+<div class="field"><label>Reference / citation text</label><textarea data-path="pages.venue.mediaReference"></textarea></div>
+<div class="field"><label>Reference URL (optional)</label><input data-path="pages.venue.mediaReferenceUrl"/></div>
+<div class="upload-grid">
+<div class="upload-box">
+<label>Video file</label>
+<input accept="video/mp4,video/webm,video/ogg" data-video-upload="page-venue" type="file"/>
+<div class="upload-status" data-media-status="page-venue"></div>
+</div>
+<div class="upload-box">
+<label>Subtitle file</label>
+<input accept=".vtt,.srt,text/vtt,application/x-subrip" data-subtitle-upload="page-venue" type="file"/>
+<div class="upload-status" data-sub-status="page-venue"></div>
+</div>
+</div>
+<div class="actions media-actions">
+<button class="secondary" data-clear-media="page-venue">Remove uploaded video/subtitles</button>
+</div>
+</div>
+<div class="section">
+<h2>Place Links</h2>
+<div class="field"><label>Google Maps button text</label><input data-path="venueInfo.mapLabel"/></div>
+<div class="field"><label>Google Maps URL</label><input data-path="venueInfo.mapUrl"/></div>
+<div class="field"><label>Official website button text</label><input data-path="venueInfo.officialLabel"/></div>
+<div class="field"><label>Official website URL</label><input data-path="venueInfo.officialUrl"/></div>
+</div>
+</section>
+<section class="creator-panel" data-panel-view="rituals">
+<div class="section">
+<h2>The Rituals — Page</h2>
+<p class="note">Only the Rituals editor is expanded here. Left = celestial story and hymn. Right = wedding ritual and Saptapadī. Every text element below is independently editable.</p>
+<div class="field"><label>Page title</label><input data-path="pages.rituals.title"/></div>
+<div class="field"><label>Small heading / kicker</label><input data-path="pages.rituals.kicker"/></div>
+</div>
+
+<div class="section">
+<h2>LEFT — The Celestial Marriage &amp; the Hymn</h2>
+<div class="field"><label>Opening section title</label><input data-path="ritualsInfo.left.openingTitle" placeholder="From the Ṛgveda to the Wedding"/></div>
+<div class="field"><label>Opening text</label><textarea class="large-text" data-path="ritualsInfo.left.openingText"></textarea></div>
+<div class="field"><label>Opening text alignment</label><select data-path="ritualsInfo.left.openingAlign"><option value="left">Left</option><option value="center">Centre</option><option value="right">Right</option></select></div>
+
+<div class="subsection">
+<h3>The Celestial Marriage</h3>
+<div class="field"><label>Section title</label><input data-path="ritualsInfo.left.storyTitle" placeholder="The Celestial Marriage"/></div>
+<div class="field"><label>Story text</label><textarea class="large-text" data-path="ritualsInfo.left.storyText"></textarea></div>
+<div class="field"><label>Story alignment</label><select data-path="ritualsInfo.left.storyAlign"><option value="left">Left</option><option value="center">Centre</option><option value="right">Right</option></select></div>
+<div class="field"><label>Bridge / transition line</label><textarea data-path="ritualsInfo.left.bridgeText" placeholder="And from this celestial marriage emerges a human ritual."></textarea></div>
+</div>
+
+<div class="subsection">
+<h3>Within the Hymn — expandable chapters</h3>
+<div class="field"><label>Section heading</label><input data-path="ritualsInfo.left.hymnTitle" placeholder="Within the Hymn"/></div>
+<div class="field"><label>Section subtitle</label><input data-path="ritualsInfo.left.hymnSubtitle" placeholder="Explore the Sūryā Sūkta · Ṛgveda 10.85"/></div>
+
+<div class="event-editor"><h3>1 · Cosmic Architecture</h3><div class="field"><label>Button title</label><input data-path="ritualsInfo.left.hymnButtons.cosmic.title" placeholder="Cosmic Architecture"/></div><div class="field"><label>Verse label</label><input data-path="ritualsInfo.left.hymnButtons.cosmic.verses" placeholder="Verses 1–5"/></div><div class="field"><label>Expanded heading</label><input data-path="ritualsInfo.left.hymnButtons.cosmic.heading"/></div><div class="field"><label>Expanded text</label><textarea class="large-text" data-path="ritualsInfo.left.hymnButtons.cosmic.body"></textarea></div><div class="field"><label>Source / note</label><textarea data-path="ritualsInfo.left.hymnButtons.cosmic.source"></textarea></div></div>
+<div class="event-editor"><h3>2 · The Bride's Preparation</h3><div class="field"><label>Button title</label><input data-path="ritualsInfo.left.hymnButtons.preparation.title" placeholder="The Bride's Preparation"/></div><div class="field"><label>Verse label</label><input data-path="ritualsInfo.left.hymnButtons.preparation.verses" placeholder="Verses 6–12"/></div><div class="field"><label>Expanded heading</label><input data-path="ritualsInfo.left.hymnButtons.preparation.heading"/></div><div class="field"><label>Expanded text</label><textarea class="large-text" data-path="ritualsInfo.left.hymnButtons.preparation.body"></textarea></div><div class="field"><label>Source / note</label><textarea data-path="ritualsInfo.left.hymnButtons.preparation.source"></textarea></div></div>
+<div class="event-editor"><h3>3 · The Chariot &amp; the Stars</h3><div class="field"><label>Button title</label><input data-path="ritualsInfo.left.hymnButtons.chariot.title" placeholder="The Chariot &amp; the Stars"/></div><div class="field"><label>Verse label</label><input data-path="ritualsInfo.left.hymnButtons.chariot.verses" placeholder="Verses 13–19"/></div><div class="field"><label>Expanded heading</label><input data-path="ritualsInfo.left.hymnButtons.chariot.heading"/></div><div class="field"><label>Expanded text</label><textarea class="large-text" data-path="ritualsInfo.left.hymnButtons.chariot.body"></textarea></div><div class="field"><label>Source / note</label><textarea data-path="ritualsInfo.left.hymnButtons.chariot.source"></textarea></div></div>
+<div class="event-editor"><h3>4 · The Bridal Journey &amp; Protections</h3><div class="field"><label>Button title</label><input data-path="ritualsInfo.left.hymnButtons.journey.title" placeholder="The Bridal Journey &amp; Protections"/></div><div class="field"><label>Verse label</label><input data-path="ritualsInfo.left.hymnButtons.journey.verses" placeholder="Verses 20–35"/></div><div class="field"><label>Expanded heading</label><input data-path="ritualsInfo.left.hymnButtons.journey.heading"/></div><div class="field"><label>Expanded text</label><textarea class="large-text" data-path="ritualsInfo.left.hymnButtons.journey.body"></textarea></div><div class="field"><label>Source / note</label><textarea data-path="ritualsInfo.left.hymnButtons.journey.source"></textarea></div></div>
+<div class="event-editor"><h3>5 · The Hand &amp; the Fire</h3><div class="field"><label>Button title</label><input data-path="ritualsInfo.left.hymnButtons.handFire.title" placeholder="The Hand &amp; the Fire"/></div><div class="field"><label>Verse label</label><input data-path="ritualsInfo.left.hymnButtons.handFire.verses" placeholder="Verses 36–39"/></div><div class="field"><label>Expanded heading</label><input data-path="ritualsInfo.left.hymnButtons.handFire.heading"/></div><div class="field"><label>Expanded text</label><textarea class="large-text" data-path="ritualsInfo.left.hymnButtons.handFire.body"></textarea></div><div class="field"><label>Source / note</label><textarea data-path="ritualsInfo.left.hymnButtons.handFire.source"></textarea></div></div>
+<div class="event-editor"><h3>6 · Three Husbands Before the Human One</h3><div class="field"><label>Button title</label><input data-path="ritualsInfo.left.hymnButtons.threeHusbands.title" placeholder="Three Husbands Before the Human One"/></div><div class="field"><label>Verse label</label><input data-path="ritualsInfo.left.hymnButtons.threeHusbands.verses" placeholder="Verses 40–41"/></div><div class="field"><label>Expanded heading</label><input data-path="ritualsInfo.left.hymnButtons.threeHusbands.heading"/></div><div class="field"><label>Expanded text</label><textarea class="large-text" data-path="ritualsInfo.left.hymnButtons.threeHusbands.body"></textarea></div><div class="field"><label>Source / note</label><textarea data-path="ritualsInfo.left.hymnButtons.threeHusbands.source"></textarea></div></div>
+<div class="event-editor"><h3>7 · The Bride's Authority</h3><div class="field"><label>Button title</label><input data-path="ritualsInfo.left.hymnButtons.authority.title" placeholder="The Bride's Authority"/></div><div class="field"><label>Verse label</label><input data-path="ritualsInfo.left.hymnButtons.authority.verses" placeholder="Verses 42–47"/></div><div class="field"><label>Expanded heading</label><input data-path="ritualsInfo.left.hymnButtons.authority.heading"/></div><div class="field"><label>Expanded text</label><textarea class="large-text" data-path="ritualsInfo.left.hymnButtons.authority.body"></textarea></div><div class="field"><label>Source / note</label><textarea data-path="ritualsInfo.left.hymnButtons.authority.source"></textarea></div></div>
+</div>
+
+<div class="subsection">
+<h3>Atharvaveda — separate expandable chapter</h3>
+<div class="field"><label>Button title</label><input data-path="ritualsInfo.left.atharvaveda.title" placeholder="Atharvaveda · A Parallel Wedding Poem"/></div>
+<div class="field"><label>Small label / reference</label><input data-path="ritualsInfo.left.atharvaveda.reference" placeholder="Atharvaveda XIV.1–2"/></div>
+<div class="field"><label>Expanded text</label><textarea class="large-text" data-path="ritualsInfo.left.atharvaveda.body"></textarea></div>
+<div class="field"><label>Comparison / table text</label><textarea class="large-text" data-path="ritualsInfo.left.atharvaveda.comparison"></textarea></div>
+<div class="field"><label>Source / note</label><textarea data-path="ritualsInfo.left.atharvaveda.source"></textarea></div>
+</div>
+
+<div class="subsection">
+<h3>Samrājñī — closing</h3>
+<div class="field"><label>Closing title</label><input data-path="ritualsInfo.left.closingTitle" placeholder="Samrājñī"/></div>
+<div class="field"><label>Closing text</label><textarea class="large-text" data-path="ritualsInfo.left.closingText"></textarea></div>
+<div class="field"><label>Final line</label><textarea data-path="ritualsInfo.left.finalLine"></textarea></div>
+<div class="field"><label>Closing alignment</label><select data-path="ritualsInfo.left.closingAlign"><option value="left">Left</option><option value="center">Centre</option><option value="right">Right</option></select></div>
+</div>
+</div>
+
+<div class="section">
+<h2>RIGHT — The Wedding Ritual</h2>
+<div class="field"><label>Section title</label><input data-path="ritualsInfo.right.title" placeholder="The Wedding Ritual"/></div>
+<div class="field"><label>Introduction</label><textarea data-path="ritualsInfo.right.intro"></textarea></div>
+<div class="field"><label>Text alignment</label><select data-path="ritualsInfo.right.align"><option value="left">Left</option><option value="center">Centre</option><option value="right">Right</option></select></div>
+
+<div id="ritualOrderEditor"></div>
+<button class="secondary" id="addRitual" type="button">+ Add Ritual</button>
+</div>
+
+<div class="section">
+<h2>The Rituals — Source / Credit</h2>
+<div class="field"><label>Source / credit text</label><textarea data-path="ritualsInfo.creditText"></textarea></div>
+<div class="field"><label>Source URL</label><input data-path="ritualsInfo.creditUrl"/></div>
+</div>
+
+<div class="section"><h2>The Rituals — Background Video &amp; Subtitles</h2><p class="note">Upload the background film here. If no video is uploaded, no player or placeholder appears.</p><div class="field"><label>Video title / caption</label><input data-path="pages.rituals.mediaTitle"/></div><div class="field"><label>Reference / citation text</label><textarea data-path="pages.rituals.mediaReference"></textarea></div><div class="field"><label>Reference URL (optional)</label><input data-path="pages.rituals.mediaReferenceUrl"/></div><div class="upload-grid"><div class="upload-box"><label>Video file</label><input accept="video/mp4,video/webm,video/ogg" data-video-upload="page-rituals" type="file"/><div class="upload-status" data-media-status="page-rituals"></div></div><div class="upload-box"><label>Subtitle file (optional)</label><input accept=".vtt,.srt,text/vtt,application/x-subrip" data-subtitle-upload="page-rituals" type="file"/><div class="upload-status" data-sub-status="page-rituals"></div></div></div><div class="actions media-actions"><button class="secondary" data-clear-media="page-rituals">Remove uploaded video/subtitles</button></div></div>
+</section>
+<section class="creator-panel" data-panel-view="kerala">
+<div class="section">
+<h2>Kerala &amp; Beyond — Page Text</h2>
+<div class="field"><label>Page title</label><input data-path="pages.kerala.title"/></div>
+<div class="field"><label>Small heading / kicker</label><input data-path="pages.kerala.kicker"/></div>
+<div class="field"><label>Body text</label><textarea class="large-text" data-path="pages.kerala.body"></textarea></div>
+</div>
+<div class="section">
+<h2>Kerala &amp; Beyond — Video &amp; Subtitles</h2>
+<p class="note">Upload an MP4/WebM video. Subtitle files may be WebVTT (.vtt) or SubRip (.srt); SRT is converted automatically to WebVTT for browser playback.</p>
+<div class="field"><label>Video title / caption</label><input data-path="pages.kerala.mediaTitle"/></div>
+<div class="field"><label>Reference / citation text</label><textarea data-path="pages.kerala.mediaReference"></textarea></div>
+<div class="field"><label>Reference URL (optional)</label><input data-path="pages.kerala.mediaReferenceUrl"/></div>
+<div class="upload-grid">
+<div class="upload-box">
+<label>Video file</label>
+<input accept="video/mp4,video/webm,video/ogg" data-video-upload="page-kerala" type="file"/>
+<div class="upload-status" data-media-status="page-kerala"></div>
+</div>
+<div class="upload-box">
+<label>Subtitle file</label>
+<input accept=".vtt,.srt,text/vtt,application/x-subrip" data-subtitle-upload="page-kerala" type="file"/>
+<div class="upload-status" data-sub-status="page-kerala"></div>
+</div>
+</div>
+<div class="actions media-actions">
+<button class="secondary" data-clear-media="page-kerala">Remove uploaded video/subtitles</button>
+</div>
+</div>
+<div class="section">
+<h2>Within Kerala — Destination Tiles</h2>
+<p class="note">Each Kerala tile opens a place window. “What to do” and “Where we would stay” contain individually editable Google Maps links; the existing general Open in Maps link remains at the bottom.</p>
+<div class="field"><label>Destination section heading</label><input data-path="keralaBeyond.sectionTitle"/></div>
+<div class="field"><label>Destination section note</label><textarea data-path="keralaBeyond.sectionNote"></textarea></div>
+<div id="destinationEditor"></div>
+<button class="secondary" id="addDestination" type="button">+ Add destination</button>
+</div>
+<div class="section">
+<h2>Beyond Kerala — Journey Routes</h2>
+<p class="note">This is a completely separate section below the Kerala tiles. Each journey opens its own route window; inside it, landmark tiles open a second detailed place window. Everything below is editable.</p>
+<div class="field"><label>Beyond section heading</label><input data-path="beyond.sectionTitle"/></div>
+<div class="field"><label>Beyond section note</label><textarea data-path="beyond.sectionNote"></textarea></div>
+<div id="journeyEditor"></div>
+<button class="secondary" id="addJourney" type="button">+ Add journey</button>
+</div>
+</section>
+<section class="creator-panel" data-panel-view="care">
+<div class="section">
+<h2>Reception — Page Text</h2>
+<div class="field"><label>Page title</label><input data-path="pages.care.title"/></div>
+<div class="field"><label>Small heading / kicker</label><input data-path="pages.care.kicker"/></div>
+<div class="field"><label>Body text</label><textarea class="large-text" data-path="pages.care.body"></textarea></div>
+</div>
+<div class="section">
+<h2>Reception — Video &amp; Subtitles</h2>
+<p class="note">Upload an MP4/WebM video. Subtitle files may be WebVTT (.vtt) or SubRip (.srt); SRT is converted automatically to WebVTT for browser playback.</p>
+<div class="field"><label>Video title / caption</label><input data-path="pages.care.mediaTitle"/></div>
+<div class="field"><label>Reference / citation text</label><textarea data-path="pages.care.mediaReference"></textarea></div>
+<div class="field"><label>Reference URL (optional)</label><input data-path="pages.care.mediaReferenceUrl"/></div>
+<div class="upload-grid">
+<div class="upload-box">
+<label>Video file</label>
+<input accept="video/mp4,video/webm,video/ogg" data-video-upload="page-care" type="file"/>
+<div class="upload-status" data-media-status="page-care"></div>
+</div>
+<div class="upload-box">
+<label>Subtitle file</label>
+<input accept=".vtt,.srt,text/vtt,application/x-subrip" data-subtitle-upload="page-care" type="file"/>
+<div class="upload-status" data-sub-status="page-care"></div>
+</div>
+</div>
+<div class="actions media-actions">
+<button class="secondary" data-clear-media="page-care">Remove uploaded video/subtitles</button>
+</div>
+</div>
+<div class="section"><h2>Reception — Journey &amp; Visa</h2><p class="note">The two transparent Reception boxes shown on the website. Add Stefano’s Google Form link when it is ready.</p><div class="subsection"><h3>Journey organization</h3><div class="field"><label>Title</label><input data-path="guestCare.journeyTitle"/></div><div class="field"><label>Text</label><textarea class="large-text" data-path="guestCare.journeyText"></textarea></div><div class="field"><label>Form button label</label><input data-path="guestCare.formButtonLabel"/></div><div class="field"><label>Google Form URL</label><input data-path="guestCare.formUrl"/></div></div><div class="subsection"><h3>Visa</h3><div class="field"><label>Title</label><input data-path="guestCare.visaTitle"/></div><div class="field"><label>Text</label><textarea class="large-text" data-path="guestCare.visaText"></textarea></div><div class="field"><label>Visa link label</label><input data-path="guestCare.visaButtonLabel"/></div><div class="field"><label>Official visa URL</label><input data-path="guestCare.visaUrl"/></div></div></div>
+</section>
+<section class="creator-panel" data-panel-view="cabinet">
+<div class="section">
+<h2>Treasure — Page Text</h2>
+<div class="field"><label>Page title</label><input data-path="pages.cabinet.title"/></div>
+<div class="field"><label>Small heading / kicker</label><input data-path="pages.cabinet.kicker"/></div>
+<div class="field"><label>Body text</label><textarea class="large-text" data-path="pages.cabinet.body"></textarea></div>
+</div>
+<div class="section">
+<h2>Treasure — Video &amp; Subtitles</h2>
+<p class="note">Upload an MP4/WebM video. Subtitle files may be WebVTT (.vtt) or SubRip (.srt); SRT is converted automatically to WebVTT for browser playback.</p>
+<div class="field"><label>Video title / caption</label><input data-path="pages.cabinet.mediaTitle"/></div>
+<div class="field"><label>Reference / citation text</label><textarea data-path="pages.cabinet.mediaReference"></textarea></div>
+<div class="field"><label>Reference URL (optional)</label><input data-path="pages.cabinet.mediaReferenceUrl"/></div>
+<div class="upload-grid">
+<div class="upload-box">
+<label>Video file</label>
+<input accept="video/mp4,video/webm,video/ogg" data-video-upload="page-cabinet" type="file"/>
+<div class="upload-status" data-media-status="page-cabinet"></div>
+</div>
+<div class="upload-box">
+<label>Subtitle file</label>
+<input accept=".vtt,.srt,text/vtt,application/x-subrip" data-subtitle-upload="page-cabinet" type="file"/>
+<div class="upload-status" data-sub-status="page-cabinet"></div>
+</div>
+</div>
+<div class="actions media-actions">
+<button class="secondary" data-clear-media="page-cabinet">Remove uploaded video/subtitles</button>
+</div>
+</div>
+</section>
+<section class="creator-panel" data-panel-view="days">
+<div class="section">
+<h2>The Three Days — General</h2>
+<div class="field"><label>Page title</label><input data-path="threeDays.title"/></div>
+<div class="field"><label>Introduction</label><textarea data-path="threeDays.intro"></textarea></div>
+</div>
+<div id="daysEditor"></div>
+</section>
+<section class="creator-panel" data-panel-view="preview">
+<div class="section">
+<h2>Preview</h2>
+<p class="note">Save first, then refresh this preview. Uploaded media and subtitles use the same browser storage and will appear here.</p>
+<div class="actions"><button id="refreshPreview">Refresh preview</button></div>
+</div>
+<iframe class="preview-frame" id="previewFrame" src="index.html?v=15creator"></iframe>
+</section>
+</main>
+</div>
+<script src="media-db.js?v=20mediarestore"></script>
+<script src="creator.js?v=20mediarestore"></script>
+</body>
+</html>

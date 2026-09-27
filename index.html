@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sariga & Stefano</title>
+<link rel="stylesheet" href="styles.css?v=20mediarestore">
+</head>
+<body class="intro-mode">
+<div class="grain"></div>
+
+<header class="topbar">
+  <a class="brand" href="#home" data-go="home">S ❦ S</a>
+  <nav></nav>
+</header>
+
+<section class="page intro active" id="intro">
+  <img class="intro-bg" src="assets/intro_clean.jpg?v=4final" alt="Matisse-inspired painted entrance">
+  <img class="apple" src="assets/apple.jpg" alt="Painted apple" title="Grab me">
+  <div class="grab" data-grab>Grab me</div>
+  <div class="intro-quote" data-intro-quote></div>
+  <div class="intro-note" data-intro-note></div>
+</section>
+
+<section class="page home-page" id="home">
+  <img class="home-bg" src="assets/home_locked.png?v=19approved" alt="Sariga and Stefano wedding homepage artwork">
+<div class="home-interactions">
+  <!-- Invisible navigation over the lettering already painted in the locked artwork -->
+  <button class="art-hit home-brand-hit" data-go="home" aria-label="Home"></button>
+
+  <button class="art-hit home-nav-hit" data-home-nav="0" data-go="story" aria-label="Love"></button>
+  <button class="art-hit home-nav-hit" data-home-nav="1" data-go="venue" aria-label="The Place"></button>
+  <button class="art-hit home-nav-hit" data-home-nav="2" data-go="rituals" aria-label="The Rituals"></button>
+  <button class="art-hit home-nav-hit" data-home-nav="3" data-go="days" aria-label="The Three Days"></button>
+  <button class="art-hit home-nav-hit" data-home-nav="4" data-go="kerala" aria-label="Kerala and Beyond"></button>
+  <button class="art-hit home-nav-hit" data-home-nav="5" data-go="care" aria-label="Reception"></button>
+  <button class="art-hit home-nav-hit" data-home-nav="6" data-go="cabinet" aria-label="Treasure"></button>
+
+  <!-- Invisible interaction zones over the six painted arch cards -->
+  <button class="art-hit home-card-hit" data-go="story" aria-label="Love"></button>
+  <button class="art-hit home-card-hit" data-go="venue" aria-label="The Place"></button>
+  <button class="art-hit home-card-hit" data-go="rituals" aria-label="The Rituals"></button>
+  <button class="art-hit home-card-hit" data-go="days" aria-label="The Three Days"></button>
+  <button class="art-hit home-card-hit" data-go="kerala" aria-label="Kerala and Beyond"></button>
+  <button class="art-hit home-card-hit" data-go="care" aria-label="Reception"></button>
+
+  <button class="art-hit credits-hit" id="creditsHit" aria-label="Credits"></button>
+
+  <!-- Existing film interactions -->
+  <button class="art-hit media-hit" data-home-role="note" data-media="note" aria-label="Play A Note From Us"></button>
+  <button class="art-hit media-hit" data-home-role="short" data-media="short" aria-label="Play A Short Film"></button>
+</div>
+
+</section>
+
+<section class="page days-page" id="days">
+  <div class="days-backgrounds" aria-hidden="true"></div>
+  <div class="living-shade"></div>
+  <div class="days-shell">
+    <div class="chapter-kicker">03 · 04 · 05 September 2027</div>
+    <h1 data-days-title></h1>
+    <p class="chapter-intro" data-days-intro></p>
+    <div class="day-tabs" role="tablist" aria-label="Wedding days"></div>
+    <div class="day-panel" aria-live="polite"></div>
+    <div class="interior-footer">An Indo-Italian Wedding</div>
+  </div>
+</section>
+
+<section class="page living-page narrative-page" id="story" data-media-page="story">
+  <div class="living-media"></div><div class="living-shade"></div>
+  <div class="narrative-shell"><div class="narrative-left"><div class="chapter-kicker"></div><h1></h1><div class="page-feature-media" data-feature-media="story"></div></div><div class="narrative-right"><h2 id="loveQuestionTitle"></h2><p class="body-copy"></p><form class="love-answer" id="loveAnswerForm"><textarea id="loveAnswer" rows="5"></textarea><button type="submit" id="loveSend"></button><div class="love-status" id="loveStatus"></div></form></div></div>
+</section>
+
+<section class="page living-page narrative-page" id="venue" data-media-page="venue">
+  <div class="living-media"></div><div class="living-shade"></div>
+  <div class="narrative-shell"><div class="narrative-left"><div class="chapter-kicker"></div><h1></h1><div class="page-feature-media" data-feature-media="venue"></div></div><div class="narrative-right"><p class="body-copy"></p><div class="venue-links" id="venueLinks"></div></div></div>
+</section>
+
+<section class="page living-page rituals-page" id="rituals" data-media-page="rituals">
+  <div class="living-media rituals-background"></div><div class="living-shade"></div>
+  <div class="rituals-shell">
+    <div class="rituals-column rituals-left">
+      <div class="chapter-kicker"></div><h1></h1>
+      <div id="ritualsLeftContent"></div>
+    </div>
+    <div class="rituals-column rituals-right">
+      <div id="ritualsRightContent"></div>
+      <div class="ritual-credit" id="ritualCredit"></div>
+    </div>
+  </div>
+</section>
+
+<section class="page living-page" id="kerala" data-media-page="kerala">
+  <div class="living-media"></div><div class="living-shade"></div>
+  <div class="living-copy kerala-copy"><div class="chapter-kicker"></div><h1></h1><p></p><section class="kerala-section-block"><div class="destination-intro"><div class="section-number">I</div><h2 id="destinationSectionTitle"></h2><p id="destinationSectionNote"></p></div><div class="destination-grid" id="destinationGrid"></div></section><section class="beyond-section-block"><div class="destination-intro beyond-intro"><div class="section-number">II</div><h2 id="beyondSectionTitle"></h2><p id="beyondSectionNote"></p></div><div class="journey-grid" id="journeyGrid"></div></section><div class="page-feature-media" data-feature-media="kerala"></div><div class="fine-rule"></div><div class="coming-note"></div></div>
+</section>
+
+<section class="page living-page narrative-page" id="care" data-media-page="care">
+  <div class="living-media"></div><div class="living-shade"></div>
+  <div class="narrative-shell reception-shell"><div class="narrative-left"><div class="chapter-kicker"></div><h1></h1><div class="page-feature-media" data-feature-media="care"></div></div><div class="narrative-right reception-right"><p class="body-copy"></p><div class="reception-boxes" id="guestCareHub"></div></div></div>
+</section>
+
+<section class="page living-page narrative-page" id="cabinet" data-media-page="cabinet">
+  <div class="living-media"></div><div class="living-shade"></div>
+  <div class="narrative-shell"><div class="narrative-left"><div class="chapter-kicker"></div><h1></h1><div class="page-feature-media" data-feature-media="cabinet"></div></div><div class="narrative-right"><p class="body-copy"></p></div></div>
+</section>
+
+
+
+<div class="journey-modal" id="journeyModal" aria-hidden="true">
+  <button class="film-close" id="journeyClose" aria-label="Close">×</button>
+  <div class="journey-inner">
+    <div class="film-kicker" id="journeyEyebrow"></div>
+    <h2 id="journeyTitle"></h2>
+    <div class="journey-route" id="journeyRoute"></div>
+    <div class="journey-facts">
+      <div><span>Recommended</span><strong id="journeyRecommended"></strong></div>
+      <div><span>Possible in</span><strong id="journeyPossible"></strong></div>
+      <div><span>Best for</span><strong id="journeyBestFor"></strong></div>
+    </div>
+    <div class="journey-copy">
+      <section><h3>The journey</h3><p id="journeyDescription"></p></section>
+      <section><h3>How we would travel</h3><p id="journeyTravel"></p></section>
+      <section><h3>Returning to Europe</h3><p id="journeyDeparture"></p></section>
+    </div>
+    <div class="journey-landmark-heading">
+      <div class="film-kicker">Landmarks along the route</div>
+      <h3>Open a place to explore it</h3>
+    </div>
+    <div class="journey-landmark-grid" id="journeyLandmarkGrid"></div>
+  </div>
+</div>
+
+<div class="landmark-modal" id="landmarkModal" aria-hidden="true">
+  <button class="film-close" id="landmarkClose" aria-label="Close">×</button>
+  <div class="travel-inner landmark-inner">
+    <div class="film-kicker" id="landmarkEyebrow"></div>
+    <h2 id="landmarkTitle"></h2>
+    <div class="travel-sections rich-place-sections">
+      <section class="history-section"><h3>A little history</h3><p id="landmarkHistory"></p></section>
+      <section><h3>What to do</h3><p id="landmarkDoIntro"></p><div class="linked-item-list" id="landmarkSpots"></div></section>
+      <section><h3>Where we would stay</h3><div class="linked-item-list" id="landmarkStays"></div></section>
+    </div>
+    <a class="travel-map-link" id="landmarkMapLink" target="_blank" rel="noopener noreferrer">Open in Maps</a>
+  </div>
+</div>
+
+<div class="travel-modal" id="travelModal" aria-hidden="true">
+  <button class="film-close" id="travelClose" aria-label="Close">×</button>
+  <div class="travel-inner">
+    <div class="film-kicker" id="travelEyebrow"></div>
+    <h2 id="travelTitle"></h2>
+    <div class="travel-distance" id="travelDistance"></div>
+    <div class="travel-sections">
+      <section><h3>A little history</h3><p id="travelHistory"></p></section>
+      <section><h3>What to do</h3><p id="travelDo"></p><div class="linked-item-list" id="travelSpots"></div></section>
+      <section><h3>Where we would stay</h3><div class="linked-item-list" id="travelStay"></div></section>
+    </div>
+    <a class="travel-map-link" id="travelMapLink" target="_blank" rel="noopener noreferrer">Open in Maps</a>
+  </div>
+</div>
+
+<div class="credits-modal" id="creditsModal" aria-hidden="true"><button class="film-close" id="creditsClose" aria-label="Close">×</button><div class="credits-inner"><div class="film-kicker">Sources & acknowledgements</div><h2 id="creditsTitle">Credits</h2><p id="creditsBody"></p></div></div>
+
+<div class="film-modal" id="filmModal" aria-hidden="true">
+  <button class="film-close" id="filmClose" aria-label="Close">×</button>
+  <div class="film-inner">
+    <div class="film-kicker" id="filmKicker"></div>
+    <h2 id="filmTitle"></h2>
+    <div id="filmPlayer"></div>
+    <p id="filmMessage">The film will be added here.</p>
+    <div id="filmReference"></div>
+  </div>
+</div>
+
+<script src="media-db.js?v=20mediarestore"></script>
+<script src="reader.js?v=20mediarestore"></script>
+</body>
+</html>

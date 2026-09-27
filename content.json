@@ -1,0 +1,1595 @@
+{
+  "site": {
+    "names": "Sariga & Stefano",
+    "dates": "3 · 4 · 5 September 2027",
+    "venue": "River Retreat Heritage Resort · Cheruthuruthy",
+    "tagline": "We Welcome You",
+    "footer": "An Indo-Italian Wedding",
+    "footer2": ""
+  },
+  "intro": {
+    "quote": "Some journeys are written in the stars, others in the rivers.",
+    "grab": "Grab me",
+    "note": "Between sleep and dream, runs a river without end."
+  },
+  "nav": [
+    {
+      "id": "story",
+      "label": "Love"
+    },
+    {
+      "id": "venue",
+      "label": "The Place"
+    },
+    {
+      "id": "rituals",
+      "label": "The Rituals"
+    },
+    {
+      "id": "days",
+      "label": "The Three Days"
+    },
+    {
+      "id": "kerala",
+      "label": "Kerala & Beyond"
+    },
+    {
+      "id": "care",
+      "label": "Reception"
+    },
+    {
+      "id": "cabinet",
+      "label": "Treasure"
+    }
+  ],
+  "pages": {
+    "story": {
+      "title": "Love",
+      "kicker": "",
+      "body": "To us, love is everything. But what is love to you?\nShare with us your own perspective:",
+      "mediaTitle": "",
+      "mediaReference": "",
+      "mediaReferenceUrl": ""
+    },
+    "venue": {
+      "title": "The Place",
+      "kicker": "Cheruthuruthy · Kerala",
+      "body": "Once the summer palace of the Maharajas of Cochin, it now hosts a serene Ayurvedic resort, The River Retreat, a heritage Ayurvedic Resort in Thrissur. Preserving the spirit of its illustrious past, the palace breathes history in every detail, offering you Ayurvedic rejuvenation and therapies in the ambience of a palace.",
+      "mediaTitle": "Talking Hands of Travancore (1981)",
+      "mediaReference": "",
+      "mediaReferenceUrl": ""
+    },
+    "kerala": {
+      "title": "Kerala & Beyond",
+      "kicker": "Journeys & Experiences",
+      "body": "A personal travel chapter for the places, landscapes, culture and small discoveries we would love our guests to experience around the wedding.",
+      "mediaTitle": "",
+      "mediaReference": "",
+      "mediaReferenceUrl": ""
+    },
+    "care": {
+      "title": "Reception",
+      "kicker": "Welcome to Kerala",
+      "body": "Dear guests,\n\nBefore, during and after the wedding, we would like you to feel at home in Kerala, as we do. The people of Kerala warmly welcomed their guests throughout the whole history, recognising in them God (Adithi Devo Bhava) and treating them alike; indeed, we simply follow their example.\n\nNevertheless, we know that, for many of you, this will be the first time travelling to India. India is indeed a huge and far away country, so that such a trip to an exotic and unexplored place may seem, at first, overwhelming. For this reason we set up this page, where to provide you some basic information about your future trip to Kerala and, most importantly, to collect information about your travelling plan, so that we can conveniently take care of you at your arrival and during the three wedding days. Moreover, this page allows you to communicate to us all your special needs for the travel and stay, so that we can organize accordingly.\n\nYours sincerely,\n\nSariga and Stefano",
+      "mediaTitle": "",
+      "mediaReference": "",
+      "mediaReferenceUrl": ""
+    },
+    "cabinet": {
+      "title": "Treasure",
+      "kicker": "Things we carry with us",
+      "body": "Dearest Guests,\n\nYou are our treasure! Your presence in our celebration is our greatest gift. So please kindly do not gift us anything. Let us enjoy a week together singing and dancing, and take this as an opportunity to have a big get-together for all of us. Looking forward to sharing with you our small joy.\n\n\nWith Love,\nSariga and Stefano",
+      "mediaTitle": "",
+      "mediaReference": "",
+      "mediaReferenceUrl": ""
+    },
+    "rituals": {
+      "title": "The Rituals",
+      "kicker": "In the beginning,  Love arose,  which was the primal germ cell of the mind. The Seers, searching in their hearts with wisdom, discovered the connection of Being in Nonbeing. Who really knows? Who can presume to tell it? Whence was it born? Whence issued this creation? Even the Gods came after its emergence. Then who can tell from whence it came to be?                    -Rig Veda(10.129.4),Nasadiya Sukta (Hym of creation)",
+      "body": "",
+      "rightBody": "",
+      "mediaTitle": "",
+      "mediaReference": "",
+      "mediaReferenceUrl": ""
+    }
+  },
+  "threeDays": {
+    "title": "The Three Days",
+    "intro": "Three days, each a chapter of its own. Select a day, then open any ceremony to read its meaning.",
+    "days": [
+      {
+        "id": "03",
+        "tab": "03 SEP",
+        "date": "03 September 2027",
+        "theme": "Venue at Sariga's  Home town in Kattussery",
+        "video": "assets/video/day03.mp4",
+        "poster": "assets/posters/day03.jpg",
+        "events": [
+          {
+            "time": "11:00 AM – 12:00 PM",
+            "title": "Dakshina",
+            "subtitle": "Honouring",
+            "description": "Honouring the elders who are important in our lives and receiving their blessings.",
+            "hospitality": false
+          },
+          {
+            "time": "From 11:30 AM onwards",
+            "title": "Lunch Buffet",
+            "subtitle": "A shared table",
+            "description": "Lunch begins from 11:30 AM onwards and runs in parallel with the programme.",
+            "hospitality": true
+          },
+          {
+            "time": "2:00 PM – 4:00 PM",
+            "title": "Agnishikha",
+            "subtitle": "Elements of Fire",
+            "description": "The wedding celebrations begin with honouring the elders. With their blessings, the bride and groom are taken for the royal bath, where family and friends apply a ceremonial cream made of sandalwood, saffron and milk. This is followed by a traditional bath with water infused with fragrant flowers and herbs, symbolising purification and the rejuvenation of the youthful body and mind before the sacred wedding ceremonies.",
+            "hospitality": false
+          },
+          {
+            "time": "6:00 PM – 9:00 PM",
+            "title": "Prasādana",
+            "subtitle": "Adornment",
+            "description": "The bride and groom are now adorned and celebrated by their families and friends. Mehndi (henna) is used to decorate the bride’s hands, while the Tilak ceremony is performed for the groom. The bride’s brother applies a sandalwood mark to the groom’s forehead, welcoming him as a new member of the family. In accepting the Tilak, the groom in turn expresses his promise to embrace his new role with love and great care.",
+            "hospitality": false
+          },
+          {
+            "time": "From 6:30 PM onwards",
+            "title": "Dinner Buffet",
+            "subtitle": "An evening together",
+            "description": "Dinner begins from 6:30 PM onwards and runs in parallel with Prasādana.",
+            "hospitality": true
+          }
+        ],
+        "mediaTitle": "",
+        "mediaReference": "",
+        "mediaReferenceUrl": ""
+      },
+      {
+        "id": "04",
+        "tab": "04 SEP",
+        "date": "04 September 2027",
+        "theme": "Venue at River Retreat, Cheruthuruthy",
+        "video": "assets/video/day04.mp4",
+        "poster": "assets/posters/day04.jpg",
+        "events": [
+          {
+            "time": "10:00 AM – 3:00 PM",
+            "title": "Sightseeing",
+            "subtitle": "Optional",
+            "description": "An optional daytime experience for guests. Destinations, photographs, maps, travel times, transport information and recommendations will be added here later.",
+            "hospitality": false
+          },
+          {
+            "time": "From 6:30 PM onwards",
+            "title": "Sangeet",
+            "subtitle": "Pre-Wedding Eve",
+            "description": "An evening of music, dance, games and celebration. Traditionally, the bride’s and groom’s families form their own teams and playfully compete through dances, songs and games.",
+            "hospitality": false
+          }
+        ],
+        "mediaTitle": "",
+        "mediaReference": "",
+        "mediaReferenceUrl": ""
+      },
+      {
+        "id": "05",
+        "tab": "05 SEP",
+        "date": "05 September 2027",
+        "theme": "Venue at  River Retreat, Cheruthuruthy",
+        "video": "assets/video/day05.mp4",
+        "poster": "assets/posters/day05.jpg",
+        "events": [
+          {
+            "time": "10:00 AM – 11:30 AM",
+            "title": "Marriage Ceremony",
+            "subtitle": "The Wedding",
+            "description": "The detailed ceremony sequence will be added here once the final rituals are confirmed.",
+            "hospitality": false
+          },
+          {
+            "time": "12:00 PM – 3:00 PM",
+            "title": "Wedding Feast",
+            "subtitle": "At the table",
+            "description": "Further feast and menu information will be added here later.",
+            "hospitality": true
+          },
+          {
+            "time": "From 6:30 PM onwards",
+            "title": "Wedding Party",
+            "subtitle": "Dinner · Dance · Celebration",
+            "description": "The evening wedding celebration begins from 6:30 PM onwards, with dinner buffet and dancing running in parallel.",
+            "hospitality": false
+          }
+        ],
+        "mediaTitle": "",
+        "mediaReference": "",
+        "mediaReferenceUrl": ""
+      }
+    ]
+  },
+  "pageMedia": {
+    "story": {
+      "video": "assets/video/story.mp4",
+      "poster": "assets/posters/story.jpg"
+    },
+    "venue": {
+      "video": "assets/video/venue.mp4",
+      "poster": "assets/posters/venue.jpg"
+    },
+    "kerala": {
+      "video": "assets/video/kerala.mp4",
+      "poster": "assets/posters/kerala.jpg"
+    },
+    "care": {
+      "video": "assets/video/care.mp4",
+      "poster": "assets/posters/care.jpg"
+    },
+    "cabinet": {
+      "video": "assets/video/cabinet.mp4",
+      "poster": "assets/posters/cabinet.jpg"
+    }
+  },
+  "homeCards": [
+    {
+      "id": "story",
+      "title": "Love",
+      "subtitle": ""
+    },
+    {
+      "id": "venue",
+      "title": "The Place",
+      "subtitle": ""
+    },
+    {
+      "id": "days",
+      "title": "The Three Days",
+      "subtitle": ""
+    },
+    {
+      "id": "kerala",
+      "title": "Kerala & Beyond",
+      "subtitle": ""
+    },
+    {
+      "id": "care",
+      "title": "Guest Care",
+      "subtitle": ""
+    }
+  ],
+  "venueInfo": {
+    "mapLabel": "Open in Google Maps",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+River+Retreat+Heritage+Ayurvedic+Resort+Cheruthuruthy+Kerala",
+    "officialLabel": "River Retreat Website",
+    "officialUrl": "https://www.riverretreat.in/"
+  },
+  "homeMedia": {
+    "note": {
+      "kicker": "GNOTHI SEAUTON ",
+      "title": "....................",
+      "reference": "La Strada (1954)- Fellini  ",
+      "referenceUrl": ""
+    },
+    "short": {
+      "kicker": "TAT TVAM ASI",
+      "title": "...........",
+      "reference": "Galaxia (1973)- Sabin Balasa ",
+      "referenceUrl": ""
+    }
+  },
+  "keralaBeyond": {
+    "sectionTitle": "Within Kerala",
+    "sectionNote": "Places we would love you to discover while you are here. Open a place for a little history, things to see and places we would consider staying.",
+    "destinations": [
+      {
+        "name": "Cheruthuruthy & the Nila",
+        "eyebrow": "Close to the wedding",
+        "distance": "At your doorstep",
+        "history": "Cheruthuruthy rests beside the Bharathapuzha — affectionately called the Nila — a river deeply embedded in Kerala’s literary, artistic and cultural memory. The village is also home to Kerala Kalamandalam, one of the institutions most closely associated with the teaching and preservation of Kerala’s classical performing traditions.",
+        "thingsIntro": "This is the easiest place to experience slowly during the wedding days: river light, village roads, performance traditions and the quiet landscape around the Nila.",
+        "spots": [
+          {
+            "name": "Kerala Kalamandalam",
+            "note": "Classical performing-arts institution in Cheruthuruthy.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kerala+Kalamandalam+Cheruthuruthy"
+          },
+          {
+            "name": "Bharathapuzha / Nila riverbank",
+            "note": "Take a quiet early-morning or evening walk by the river.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bharathapuzha+Cheruthuruthy"
+          },
+          {
+            "name": "Vallathol Museum",
+            "note": "A small literary-historical stop connected with poet Vallathol Narayana Menon.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vallathol+Museum+Cheruthuruthy"
+          }
+        ],
+        "stays": [
+          {
+            "name": "The River Retreat Heritage Ayurvedic Resort",
+            "note": "The wedding venue and the most convenient base.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=River+Retreat+Cheruthuruthy"
+          },
+          {
+            "name": "Eco Garden Resort & Heritage",
+            "note": "A nearby alternative in the Cheruthuruthy area.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eco+Garden+Resort+Cheruthuruthy"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cheruthuruthy+Kerala"
+      },
+      {
+        "name": "Thrissur",
+        "eyebrow": "Temple city · culture",
+        "distance": "Approx. 45–60 min",
+        "history": "Thrissur is often called Kerala’s cultural capital. Its historic centre grew around the Vadakkunnathan Temple and the great circular Swaraj Round; the city remains closely associated with festivals, music, theatre, museums and Kerala’s modern cultural institutions.",
+        "thingsIntro": "A comfortable half-day or day trip for guests who want an introduction to Kerala’s temple-town urbanism, museums, local food and shopping.",
+        "spots": [
+          {
+            "name": "Vadakkunnathan Temple precinct",
+            "note": "A landmark temple landscape at the centre of Thrissur; access rules should be respected.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vadakkunnathan+Temple+Thrissur"
+          },
+          {
+            "name": "Sakthan Thampuran Palace",
+            "note": "Palace museum associated with the history of the former Cochin kingdom.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sakthan+Thampuran+Palace+Thrissur"
+          },
+          {
+            "name": "Kerala Sangeetha Nataka Akademi",
+            "note": "A cultural institution for theatre, music and performing arts.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kerala+Sangeetha+Nataka+Akademi+Thrissur"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Hyatt Regency Thrissur",
+            "note": "Contemporary full-service hotel.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hyatt+Regency+Thrissur"
+          },
+          {
+            "name": "Joys Palace",
+            "note": "Central city hotel convenient for short stays.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Joys+Palace+Thrissur"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thrissur+Kerala"
+      },
+      {
+        "name": "Malampuzha",
+        "eyebrow": "Garden · reservoir · Ghats",
+        "distance": "Approx. 1½–2 hours",
+        "history": "Malampuzha lies at the foot of the Western Ghats near Palakkad. The reservoir and garden landscape became one of the region’s best-known leisure areas, framed by the mountains that define the Palakkad Gap.",
+        "thingsIntro": "Best as a relaxed excursion rather than a rushed checklist: combine the reservoir landscape with gardens and the mountain edge.",
+        "spots": [
+          {
+            "name": "Malampuzha Dam",
+            "note": "Reservoir views at the foot of the Western Ghats.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Malampuzha+Dam+Kerala"
+          },
+          {
+            "name": "Malampuzha Garden",
+            "note": "Landscaped garden beside the reservoir.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Malampuzha+Garden+Kerala"
+          },
+          {
+            "name": "Rock Garden Malampuzha",
+            "note": "Sculptural garden created from discarded materials.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rock+Garden+Malampuzha"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Kairali - The Ayurvedic Healing Village",
+            "note": "Ayurvedic retreat outside Palakkad for guests wanting a slower stay.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kairali+Ayurvedic+Healing+Village+Palakkad"
+          },
+          {
+            "name": "Distrikt 9",
+            "note": "A contemporary Palakkad stay option.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Distrikt+9+Palakkad"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Malampuzha+Kerala"
+      },
+      {
+        "name": "Kollengode",
+        "eyebrow": "Palakkad · old Kerala",
+        "distance": "Approx. 1½–2 hours",
+        "history": "Kollengode lies in southern Palakkad beneath the Western Ghats, in a landscape of paddy fields, old houses, temples and mountain horizons. It offers a gentler, less touristic impression of inland Kerala.",
+        "thingsIntro": "Come for the landscape and old-town atmosphere. It works beautifully together with nearby countryside and foothill drives.",
+        "spots": [
+          {
+            "name": "Kollengode Palace",
+            "note": "Historic palace complex associated with the local royal family.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kollengode+Palace+Kerala"
+          },
+          {
+            "name": "Kachamkurissi Temple surroundings",
+            "note": "A traditional temple landscape in the Kollengode region.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kachamkurissi+Temple+Kollengode"
+          },
+          {
+            "name": "Seetharkundu Viewpoint",
+            "note": "A mountain-edge viewpoint commonly paired with the Nelliyampathy route.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Seetharkundu+Viewpoint+Kerala"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Kairali - The Ayurvedic Healing Village",
+            "note": "A comfortable retreat option in the wider Palakkad region.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kairali+Ayurvedic+Healing+Village+Palakkad"
+          },
+          {
+            "name": "Palakkad town stays",
+            "note": "Useful if combining Kollengode with several Palakkad-area excursions.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotels+Palakkad+Kerala"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kollengode+Kerala"
+      },
+      {
+        "name": "Nelliyampathy",
+        "eyebrow": "Mountain road · plantations",
+        "distance": "Approx. 2½–3 hours",
+        "history": "Nelliyampathy is a hill landscape in the Western Ghats above Palakkad, reached through winding forest and plantation roads. Tea, coffee and other plantation landscapes alternate with viewpoints and protected forest.",
+        "thingsIntro": "A good choice for guests wanting mountains without travelling as far as Munnar or Wayanad. Allow a full day and avoid over-packing the schedule.",
+        "spots": [
+          {
+            "name": "Seetharkundu Viewpoint",
+            "note": "Wide views over the Palakkad plains from the edge of the hills.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Seetharkundu+Viewpoint+Nelliyampathy"
+          },
+          {
+            "name": "Pothundi Dam",
+            "note": "Reservoir stop on the approach to the hills.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pothundi+Dam+Kerala"
+          },
+          {
+            "name": "Nelliyampathy plantation roads",
+            "note": "The road journey itself is part of the experience.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nelliyampathy+Kerala"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Misty Valley Hill Resorts",
+            "note": "A hill-stay option in the Nelliyampathy area.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Misty+Valley+Hill+Resorts+Nelliyampathy"
+          },
+          {
+            "name": "Ciscilia Heritage",
+            "note": "A smaller heritage-style option in the region.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ciscilia+Heritage+Nelliyampathy"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nelliyampathy+Kerala"
+      },
+      {
+        "name": "Wayanad",
+        "eyebrow": "Forests · hills · archaeology",
+        "distance": "Best as 2–3 nights",
+        "history": "Wayanad is a highland district of forests, plantations, valleys and ancient human settlement. Its landscape connects Kerala with the Deccan plateau and carries archaeological, tribal and colonial layers quite distinct from central Kerala.",
+        "thingsIntro": "Do not treat Wayanad as a day trip from the wedding. Two or three nights allow time for forests, viewpoints and archaeological sites without spending the entire visit in a car.",
+        "spots": [
+          {
+            "name": "Edakkal Caves",
+            "note": "Rock shelters known for prehistoric engravings; access involves a climb.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Edakkal+Caves+Wayanad"
+          },
+          {
+            "name": "Wayanad Wildlife Sanctuary",
+            "note": "Protected forest landscape; entry and safari arrangements vary by zone.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Wayanad+Wildlife+Sanctuary"
+          },
+          {
+            "name": "Pookode Lake",
+            "note": "Small freshwater lake in the highlands.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pookode+Lake+Wayanad"
+          },
+          {
+            "name": "Thirunelli Temple & Brahmagiri landscape",
+            "note": "Ancient temple setting amid the northern Wayanad hills.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thirunelli+Temple+Wayanad"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Wayanad Wild - CGH Earth",
+            "note": "Forest-oriented resort in the Lakkidi area.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Wayanad+Wild+CGH+Earth"
+          },
+          {
+            "name": "Vythiri Resort",
+            "note": "Established rainforest resort.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vythiri+Resort+Wayanad"
+          },
+          {
+            "name": "Taj Wayanad Resort & Spa",
+            "note": "Lake-facing luxury resort.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Taj+Wayanad+Resort+Spa"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Wayanad+Kerala"
+      },
+      {
+        "name": "Fort Kochi & Mattancherry",
+        "eyebrow": "Harbour · layered history",
+        "distance": "Approx. 2½–3 hours",
+        "history": "Fort Kochi and Mattancherry preserve centuries of Indian Ocean exchange. Arab, Jewish, Portuguese, Dutch, British and local communities all left traces in the harbour quarter: churches, synagogues, palaces, warehouses, spice streets and waterfront architecture.",
+        "thingsIntro": "Walk rather than rush. The pleasure is in moving between the waterfront, old streets, galleries, religious buildings and the spice quarter.",
+        "spots": [
+          {
+            "name": "Mattancherry Palace",
+            "note": "Royal and mural history in the old Mattancherry quarter.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mattancherry+Palace+Kochi"
+          },
+          {
+            "name": "Paradesi Synagogue & Jew Town",
+            "note": "Historic Jewish quarter and synagogue precinct; check opening days.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Paradesi+Synagogue+Kochi"
+          },
+          {
+            "name": "St. Francis Church",
+            "note": "One of the oldest surviving European churches in India.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=St+Francis+Church+Fort+Kochi"
+          },
+          {
+            "name": "Fort Kochi waterfront",
+            "note": "Harbour views and the famous shore-side fishing structures.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fort+Kochi+Beach"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Brunton Boatyard - CGH Earth",
+            "note": "Harbour-front heritage hotel.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Brunton+Boatyard+Kochi"
+          },
+          {
+            "name": "The Malabar House",
+            "note": "Intimate heritage hotel in Fort Kochi.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Malabar+House+Fort+Kochi"
+          },
+          {
+            "name": "Forte Kochi",
+            "note": "Restored heritage property near the historic centre.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Forte+Kochi+hotel"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fort+Kochi+Kerala"
+      },
+      {
+        "name": "Munnar & Eravikulam",
+        "eyebrow": "Tea hills · Nilgiri tahr",
+        "distance": "Best as 2–3 nights",
+        "history": "Munnar’s modern landscape was shaped by plantation history in the high Western Ghats. Nearby Eravikulam National Park protects montane grassland and shola habitat and is especially associated with the endangered Nilgiri tahr.",
+        "thingsIntro": "Give Munnar time. The most rewarding version is not a sequence of viewpoints but a slower stay with one or two walks, tea-country drives and a visit to Eravikulam when access is open.",
+        "spots": [
+          {
+            "name": "Eravikulam National Park",
+            "note": "High-elevation grassland and important Nilgiri tahr habitat; seasonal closures can apply.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eravikulam+National+Park"
+          },
+          {
+            "name": "Tea Museum Munnar",
+            "note": "An introduction to the region’s plantation history.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tea+Museum+Munnar"
+          },
+          {
+            "name": "Top Station",
+            "note": "High viewpoint on the Kerala–Tamil Nadu mountain edge.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Top+Station+Munnar"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Windermere Estate",
+            "note": "Plantation-style stay set amid cardamom and coffee country.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Windermere+Estate+Munnar"
+          },
+          {
+            "name": "SpiceTree Munnar",
+            "note": "Quiet mountain resort away from the town centre.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=SpiceTree+Munnar"
+          },
+          {
+            "name": "Fragrant Nature Munnar",
+            "note": "Comfortable resort with valley views.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fragrant+Nature+Munnar"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Munnar+Kerala"
+      },
+      {
+        "name": "Kumarakom & Vembanad",
+        "eyebrow": "Backwaters · slow Kerala",
+        "distance": "Best as 1–2 nights",
+        "history": "Kumarakom sits on Vembanad, the great lake at the heart of Kerala’s backwater system. Canals, rice landscapes, village settlements and water transport produce a rhythm entirely different from the mountains or coast.",
+        "thingsIntro": "The point here is slowness. A lake stay and a smaller canoe or responsible backwater trip are often more memorable than spending the whole day on a large houseboat.",
+        "spots": [
+          {
+            "name": "Vembanad Lake",
+            "note": "The great backwater lake around which Kumarakom life is organised.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vembanad+Lake+Kumarakom"
+          },
+          {
+            "name": "Kumarakom Bird Sanctuary",
+            "note": "Wetland and bird habitat on the eastern edge of the lake.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kumarakom+Bird+Sanctuary"
+          },
+          {
+            "name": "Village canoe routes",
+            "note": "Smaller waterways reveal everyday backwater life.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kumarakom+canoe+tours"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Kumarakom Lake Resort",
+            "note": "Large heritage-style luxury resort on Vembanad.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kumarakom+Lake+Resort"
+          },
+          {
+            "name": "Coconut Lagoon - CGH Earth",
+            "note": "Water-access heritage resort in the backwaters.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Coconut+Lagoon+Kumarakom"
+          },
+          {
+            "name": "Taj Kumarakom Resort & Spa",
+            "note": "Historic lake-side property.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Taj+Kumarakom"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kumarakom+Kerala"
+      },
+      {
+        "name": "Varkala",
+        "eyebrow": "Cliff · Arabian Sea",
+        "distance": "Best as 1–2 nights",
+        "history": "Varkala is unusual on Kerala’s coast for the laterite cliff rising above the Arabian Sea. The town also has an older pilgrimage landscape associated with the Janardanaswamy Temple and Papanasam shore.",
+        "thingsIntro": "A good final Kerala pause for guests who want the sea: early cliff walks, swimming where conditions are safe, and an evening without an itinerary.",
+        "spots": [
+          {
+            "name": "Varkala Cliff",
+            "note": "Walk the cliff before the day becomes busy.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Varkala+Cliff+Kerala"
+          },
+          {
+            "name": "Papanasam Beach",
+            "note": "Beach beneath the cliff; always follow local sea-safety advice.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Papanasam+Beach+Varkala"
+          },
+          {
+            "name": "Janardanaswamy Temple precinct",
+            "note": "Historic pilgrimage site; respect entry and dress rules.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Janardanaswamy+Temple+Varkala"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Gateway Varkala - IHCL SeleQtions",
+            "note": "Clifftop resort with broad sea views.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gateway+Varkala+IHCL"
+          },
+          {
+            "name": "Villa Akasa",
+            "note": "Smaller boutique-style stay south of the busiest cliff area.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Villa+Akasa+Varkala"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Varkala+Kerala"
+      },
+      {
+        "name": "Muziris & Kodungallur",
+        "eyebrow": "Indian Ocean histories",
+        "distance": "Approx. 1½–2 hours",
+        "history": "The Muziris region evokes Kerala’s ancient maritime connections with the wider Indian Ocean and Mediterranean worlds. Archaeology and later monuments around Kodungallur and North Paravur reveal successive Jewish, Christian, Islamic and local histories of exchange.",
+        "thingsIntro": "This is the Kerala suggestion for guests interested in history rather than scenery alone. The sites are dispersed, so a car and a curated half-day or full day works best.",
+        "spots": [
+          {
+            "name": "Pattanam archaeological area",
+            "note": "Archaeological research site associated with debates around ancient Muziris.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pattanam+Archaeological+Site+Kerala"
+          },
+          {
+            "name": "Paravur Synagogue",
+            "note": "Restored synagogue within the Muziris heritage region.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Paravur+Synagogue+Kerala"
+          },
+          {
+            "name": "Cheraman Juma Masjid",
+            "note": "Historic mosque in Kodungallur; visitors should respect local customs.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cheraman+Juma+Masjid+Kodungallur"
+          }
+        ],
+        "stays": [
+          {
+            "name": "Cranganor History Café & Riverside Château",
+            "note": "Boutique riverside stay in the Kodungallur area.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cranganor+History+Cafe+Riverside+Chateau"
+          },
+          {
+            "name": "Fort Kochi heritage hotels",
+            "note": "A practical base if combining Muziris with Kochi.",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fort+Kochi+heritage+hotels"
+          }
+        ],
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Muziris+Heritage+Project+Kerala"
+      }
+    ]
+  },
+  "guestCare": {
+    "journeyTitle": "Journey organization",
+    "journeyText": "Please tell us the details of your trip to Kerala, once planned, so that we can help you reach the wedding venue and accommodate your stay at the River Retreat resort. Please also tell us your food allergies and dietary restriction: we will provide everything for your needs.",
+    "formButtonLabel": "Journey Organization Form",
+    "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeCrSwwWmyGiU2HNiGKfgY-sSirHWAyxFyek1CiBWR5AXaY6A/viewform",
+    "formEmbedUrl": "",
+    "visaTitle": "Visa",
+    "visaText": "Visa application is needed for all non-Indian-national guests. For all EU citizens, the application process can be easily done online, a few weeks/months before departure, at the following link. For non-EU citizens who may have to go through special procedures to obtain their visa: please get in contact with us and we will be happy to help.",
+    "visaButtonLabel": "Official India Visa Information",
+    "visaUrl": "https://indianvisaonline.gov.in/"
+  },
+  "beyond": {
+    "sectionTitle": "Beyond Kerala",
+    "sectionNote": "If you have a little more time, these are four journeys we would suggest after the wedding — ways of making the return journey itself part of India.",
+    "journeys": [
+      {
+        "name": "The Konkan & Deccan Journey",
+        "eyebrow": "Rail · archaeology · coast",
+        "route": "Kerala → Badami → Hampi → Goa → Mumbai → Ajanta & Ellora",
+        "recommendedDuration": "12–14 days recommended",
+        "possibleDuration": "10 days possible",
+        "bestFor": "History · rock-cut architecture · rail scenery · coast",
+        "description": "Our grand overland suggestion. Travel north from Kerala into the Early Chalukya country around Badami, Aihole and Pattadakal, continue to the ruined imperial landscape of Hampi, then cross toward Goa and the western coast before travelling onward to Mumbai. Ajanta and Ellora are not an optional afterthought here: they are a major historical climax of the journey and deserve dedicated days.",
+        "travelNotes": "The train is part of the experience, not merely transport. On suitable rail segments, choose daylight travel and window-facing seats where possible. Western Ghats scenery can include forests, steep valleys, bridges and the spectacular Dudhsagar Falls landscape; Dudhsagar is a view from the rail journey, not a required stop. Exact train services and routings should be checked for the travel date. Guests short on time can replace selected rail legs with domestic flights, especially between Kochi, Goa and Mumbai.",
+        "departure": "A natural finish is Mumbai, with extensive international connections to Europe. Ajanta and Ellora require an inland Maharashtra extension; plan the route deliberately rather than treating them as stops on the Konkan Railway.",
+        "landmarks": [
+          {
+            "name": "Badami · Aihole · Pattadakal",
+            "eyebrow": "Early Chalukya world",
+            "history": "Together these sites form one of the most important early-medieval architectural landscapes of the Deccan. Badami’s rock-cut sanctuaries, Aihole’s extraordinary experimentation with temple forms and Pattadakal’s ceremonial monuments show architectural ideas developing across regions and traditions.",
+            "thingsIntro": "Give the group at least a full day, preferably longer. The value lies in seeing the three places as one architectural conversation rather than as isolated monuments.",
+            "spots": [
+              {
+                "name": "Badami Cave Temples",
+                "note": "Rock-cut sanctuaries overlooking the historic tank.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Badami+Cave+Temples"
+              },
+              {
+                "name": "Aihole temple groups",
+                "note": "A remarkable laboratory of early temple architecture.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Aihole+Karnataka"
+              },
+              {
+                "name": "Pattadakal",
+                "note": "UNESCO-listed temple ensemble associated with Chalukya royal ritual.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pattadakal+Karnataka"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Badami Court",
+                "note": "Convenient base for the Badami–Aihole–Pattadakal circuit.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Badami+Court+hotel"
+              },
+              {
+                "name": "Clarks Inn Badami",
+                "note": "Simple central option close to Badami’s monuments.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Clarks+Inn+Badami"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Badami+Karnataka"
+          },
+          {
+            "name": "Hampi",
+            "eyebrow": "Vijayanagara · boulder landscape",
+            "history": "Hampi preserves the monumental remains of Vijayanagara, one of South India’s great imperial capitals, within an unforgettable landscape of granite boulders and the Tungabhadra River. Sacred complexes, markets, royal enclosures and water systems spread across a vast archaeological zone.",
+            "thingsIntro": "Two full days is far better than one rushed circuit. Divide the sacred-centre and royal-centre landscapes and leave one sunrise or sunset free simply to experience the terrain.",
+            "spots": [
+              {
+                "name": "Virupaksha Temple",
+                "note": "Living temple at the historic Hampi Bazaar.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Virupaksha+Temple+Hampi"
+              },
+              {
+                "name": "Vittala Temple",
+                "note": "Celebrated temple complex and stone chariot.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vittala+Temple+Hampi"
+              },
+              {
+                "name": "Royal Enclosure",
+                "note": "Palaces, platforms, waterworks and courtly remains.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Royal+Enclosure+Hampi"
+              },
+              {
+                "name": "Hemakuta Hill",
+                "note": "Excellent place to understand the relationship between monuments and landscape.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hemakuta+Hill+Hampi"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Evolve Back Kamalapura Palace",
+                "note": "Luxury heritage-inspired base near Hampi.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Evolve+Back+Hampi"
+              },
+              {
+                "name": "Heritage Resort Hampi",
+                "note": "Comfortable resort-style base for exploring the archaeological zone.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Heritage+Resort+Hampi"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hampi+Karnataka"
+          },
+          {
+            "name": "Goa",
+            "eyebrow": "Coast · churches · Indo-Portuguese layers",
+            "history": "Goa combines an Indian Ocean coastal landscape with several centuries of Portuguese colonial history and older regional traditions. Old Goa’s churches, Fontainhas, village houses and the coast make it much more than a beach stop.",
+            "thingsIntro": "Stay two nights if possible. Keep one historical half-day for Old Goa and Panjim, then leave space for the sea and slower village landscapes.",
+            "spots": [
+              {
+                "name": "Basilica of Bom Jesus",
+                "note": "Major Old Goa monument associated with St. Francis Xavier.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Basilica+of+Bom+Jesus+Goa"
+              },
+              {
+                "name": "Sé Cathedral",
+                "note": "One of the monumental churches of Old Goa.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Se+Cathedral+Goa"
+              },
+              {
+                "name": "Fontainhas",
+                "note": "Historic Latin Quarter in Panjim.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fontainhas+Goa"
+              },
+              {
+                "name": "Dudhsagar rail landscape",
+                "note": "Treat the falls as scenery on an appropriate train route, not as a mandatory itinerary stop.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dudhsagar+Falls+Goa"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Ahilya by the Sea",
+                "note": "Quiet heritage-minded seaside stay near Panjim.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ahilya+by+the+Sea+Goa"
+              },
+              {
+                "name": "Taj Cidade de Goa Heritage",
+                "note": "Established coastal resort close to Panjim.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Taj+Cidade+de+Goa+Heritage"
+              },
+              {
+                "name": "The Postcard Velha",
+                "note": "Small retreat near Old Goa.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Postcard+Velha+Goa"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Goa+India"
+          },
+          {
+            "name": "Mumbai",
+            "eyebrow": "Port city · modern India",
+            "history": "Mumbai is both a historic port and one of India’s defining modern cities. Gothic and Indo-Saracenic civic architecture, Art Deco, markets, the harbour and dense neighbourhoods reveal very different periods of urban history.",
+            "thingsIntro": "Two nights gives a first impression and also makes Mumbai a practical international departure point.",
+            "spots": [
+              {
+                "name": "Chhatrapati Shivaji Maharaj Terminus",
+                "note": "UNESCO-listed railway terminus and major Victorian-Gothic landmark.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=CSMT+Mumbai"
+              },
+              {
+                "name": "Kala Ghoda & Fort",
+                "note": "Walkable historic district with museums and civic architecture.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kala+Ghoda+Mumbai"
+              },
+              {
+                "name": "Gateway of India",
+                "note": "Harbour monument and useful starting point for South Mumbai.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gateway+of+India+Mumbai"
+              }
+            ],
+            "stays": [
+              {
+                "name": "The Taj Mahal Palace",
+                "note": "Historic harbour-front hotel.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Taj+Mahal+Palace+Mumbai"
+              },
+              {
+                "name": "Abode Bombay",
+                "note": "Small design hotel in Colaba.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Abode+Bombay"
+              },
+              {
+                "name": "The Oberoi Mumbai",
+                "note": "Contemporary luxury on Marine Drive.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Oberoi+Mumbai"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mumbai+India"
+          },
+          {
+            "name": "Ajanta Caves",
+            "eyebrow": "Buddhist painting · rock-cut monastery",
+            "history": "Ajanta’s caves were excavated in a horseshoe-shaped ravine and contain Buddhist monastic and devotional spaces from different periods. The surviving murals are among the great achievements of ancient Indian painting and reward slow looking rather than a hurried photographic visit.",
+            "thingsIntro": "Allow a dedicated day. Arrive early, use the site transport system and give the painted caves time; low light and conservation rules are part of the experience.",
+            "spots": [
+              {
+                "name": "Ajanta Cave complex",
+                "note": "The complete archaeological landscape and visitor approach.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ajanta+Caves+Maharashtra"
+              },
+              {
+                "name": "Ajanta viewpoint",
+                "note": "A broader view of the horseshoe ravine helps explain the site’s geography.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ajanta+Caves+Viewpoint"
+              }
+            ],
+            "stays": [
+              {
+                "name": "MTDC Ajanta T Junction",
+                "note": "Practical government tourism option near the site.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=MTDC+Ajanta+T+Junction"
+              },
+              {
+                "name": "Aurangabad / Chhatrapati Sambhajinagar hotels",
+                "note": "Useful base if combining Ajanta and Ellora over several days.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hotels+Chhatrapati+Sambhajinagar"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ajanta+Caves+Maharashtra"
+          },
+          {
+            "name": "Ellora Caves",
+            "eyebrow": "Buddhist · Hindu · Jain rock-cut architecture",
+            "history": "Ellora brings Buddhist, Hindu and Jain rock-cut monuments into a single extraordinary complex. Its centrepiece, the Kailasa Temple, was carved downward from living rock on a monumental scale and is one of the most astonishing architectural works in India.",
+            "thingsIntro": "Give Ellora a full day if you care about architecture. Do not see only Kailasa and leave; the sequence of Buddhist and Jain caves explains the site's breadth.",
+            "spots": [
+              {
+                "name": "Kailasa Temple · Cave 16",
+                "note": "Monolithic temple carved from the rock mass.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kailasa+Temple+Ellora"
+              },
+              {
+                "name": "Buddhist caves",
+                "note": "Multi-storeyed monastic and devotional spaces.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ellora+Buddhist+Caves"
+              },
+              {
+                "name": "Jain caves",
+                "note": "Later rock-cut monuments with intricate sculptural programmes.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ellora+Jain+Caves"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Vivanta Aurangabad",
+                "note": "Comfortable city base for Ellora and Ajanta.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vivanta+Aurangabad"
+              },
+              {
+                "name": "Welcomhotel by ITC Hotels Rama International",
+                "note": "Full-service base in Chhatrapati Sambhajinagar.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Welcomhotel+Rama+International+Aurangabad"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ellora+Caves+Maharashtra"
+          }
+        ]
+      },
+      {
+        "name": "Lakshadweep · Into the Arabian Sea",
+        "eyebrow": "Coral islands · lagoon",
+        "route": "Kochi → Lakshadweep → Kochi → Europe",
+        "recommendedDuration": "5–7 days recommended",
+        "possibleDuration": "4 days possible",
+        "bestFor": "Sea · coral lagoons · rest after the wedding",
+        "description": "For guests who want the opposite of a monument-filled journey: travel from Kochi into the Lakshadweep archipelago for coral lagoons, clear water and an intentionally slow island stay. Lakshadweep is a Union Territory, not part of Kerala, although Kochi is an important gateway.",
+        "travelNotes": "Entry permits are required and transport and accommodation are more limited than on the mainland. Flights and authorised packages should be planned well in advance. Reef-sensitive travel matters: choose responsible operators and follow local environmental restrictions.",
+        "departure": "Return through Kochi for onward international travel to Europe. Because schedules can be limited, keep a buffer before a long-haul flight.",
+        "landmarks": [
+          {
+            "name": "Agatti",
+            "eyebrow": "Gateway island · lagoon",
+            "history": "Agatti is one of the principal air gateways to Lakshadweep and is surrounded by a long turquoise lagoon and coral reef system.",
+            "thingsIntro": "Use Agatti as an arrival point and, depending on permits and transport, as a base or transfer point to quieter islands.",
+            "spots": [
+              {
+                "name": "Agatti lagoon",
+                "note": "Lagoon landscape immediately associated with the island.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Agatti+Island+Lakshadweep"
+              },
+              {
+                "name": "Reef and water activities",
+                "note": "Use licensed local operators and follow reef-protection rules.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Agatti+water+sports"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Authorised Agatti accommodation",
+                "note": "Availability changes; use permit-approved accommodation.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Agatti+Island+resorts"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Agatti+Lakshadweep"
+          },
+          {
+            "name": "Bangaram & Thinnakara",
+            "eyebrow": "Small islands · reef",
+            "history": "The Bangaram–Thinnakara area is known for small-island scale, lagoon water and reef scenery rather than urban attractions.",
+            "thingsIntro": "Come here to do less: swim, snorkel, walk the sand and let the island rhythm replace the mainland itinerary.",
+            "spots": [
+              {
+                "name": "Bangaram lagoon",
+                "note": "Clear lagoon and reef setting.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bangaram+Island+Lakshadweep"
+              },
+              {
+                "name": "Thinnakara Island",
+                "note": "Small coral island close to Bangaram.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thinnakara+Island+Lakshadweep"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Authorised island resort / tented stay",
+                "note": "Book only through current authorised channels and confirm permits.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bangaram+Island+Resort+Lakshadweep"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bangaram+Lakshadweep"
+          }
+        ]
+      },
+      {
+        "name": "Dravidian Land",
+        "eyebrow": "Tamil archaeology · temple cities · architecture",
+        "route": "Palakkad → Chettinad → Keeladi & Madurai → Srirangam → Chola Country → Mahabalipuram → Chennai",
+        "recommendedDuration": "8–10 days recommended",
+        "possibleDuration": "7 days possible",
+        "bestFor": "Archaeology · temple architecture · food · living cities",
+        "description": "A journey eastward from Kerala into Tamil country, moving from mercantile mansions and archaeology to living temple cities, the monumental Chola landscape and finally the Pallava shore at Mahabalipuram. It is best understood as a historical progression rather than a collection of isolated temples.",
+        "travelNotes": "Road and rail can be combined depending on pace. A private car is particularly useful through Chettinad and the Chola temple region, while major cities have good rail connections. Temple access, dress and photography rules vary and should always be respected.",
+        "departure": "Finish in Chennai, which has extensive domestic and international air connections and makes a logical departure point for Europe.",
+        "landmarks": [
+          {
+            "name": "Chettinad",
+            "eyebrow": "Merchant mansions · cuisine",
+            "history": "The Chettinad region is associated with the Nattukottai Chettiar mercantile community, whose wealth and international trading networks produced remarkable mansions blending local planning with materials and decorative influences from across Asia and Europe.",
+            "thingsIntro": "Stay in a restored mansion if possible. The architecture, courtyards, tiles, woodwork and food are the experience.",
+            "spots": [
+              {
+                "name": "Kanadukathan",
+                "note": "One of the best-known Chettinad heritage towns.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kanadukathan+Chettinad"
+              },
+              {
+                "name": "Athangudi",
+                "note": "Village associated with the colourful handmade floor tiles used in Chettinad houses.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Athangudi+Tamil+Nadu"
+              },
+              {
+                "name": "Chettinad mansion walks",
+                "note": "Explore with a local guide rather than viewing only façades.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chettinad+heritage+mansions"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Visalam - CGH Earth",
+                "note": "Restored Chettinad mansion hotel.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Visalam+Chettinad"
+              },
+              {
+                "name": "The Bangala",
+                "note": "Celebrated heritage stay and culinary destination.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Bangala+Karaikudi"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chettinad+Tamil+Nadu"
+          },
+          {
+            "name": "Keeladi & Madurai",
+            "eyebrow": "Archaeology · living temple city",
+            "history": "Keeladi has become an important archaeological site for understanding early historic settlement in the Vaigai valley. Nearby Madurai adds the continuous life of one of South India’s great temple cities, centred on the Meenakshi–Sundareswarar complex.",
+            "thingsIntro": "Pair archaeology with the living city: visit the Keeladi museum and then give Madurai an evening and morning, when the temple streets are at their most atmospheric.",
+            "spots": [
+              {
+                "name": "Keeladi Museum",
+                "note": "Museum presenting finds and interpretation from the Vaigai-valley excavations.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Keeladi+Museum+Tamil+Nadu"
+              },
+              {
+                "name": "Meenakshi Amman Temple",
+                "note": "Monumental living temple complex at the heart of Madurai.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Meenakshi+Amman+Temple+Madurai"
+              },
+              {
+                "name": "Thirumalai Nayakkar Palace",
+                "note": "Seventeenth-century palace remains in Madurai.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thirumalai+Nayakkar+Palace"
+              }
+            ],
+            "stays": [
+              {
+                "name": "The Gateway Hotel Pasumalai Madurai",
+                "note": "Historic hilltop hotel overlooking Madurai.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gateway+Hotel+Pasumalai+Madurai"
+              },
+              {
+                "name": "Heritage Madurai",
+                "note": "Resort-style property incorporating modernist architectural heritage.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Heritage+Madurai"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Keeladi+Madurai+Tamil+Nadu"
+          },
+          {
+            "name": "Srirangam",
+            "eyebrow": "Temple city · Vaishnava tradition",
+            "history": "The Sri Ranganathaswamy Temple at Srirangam occupies a vast island-city setting between branches of the Kaveri. Successive enclosures, gateways and streets make the sacred complex operate at the scale of an urban district.",
+            "thingsIntro": "Allow time to walk the outer precincts rather than treating it as a single shrine. Non-Hindu access may be restricted in the innermost sacred areas.",
+            "spots": [
+              {
+                "name": "Sri Ranganathaswamy Temple",
+                "note": "The great temple-city complex of Srirangam.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ranganathaswamy+Temple+Srirangam"
+              },
+              {
+                "name": "Rockfort Tiruchirappalli",
+                "note": "Hilltop fort and temple landscape across the river in Trichy.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rockfort+Trichy"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Courtyard by Marriott Tiruchirappalli",
+                "note": "Convenient full-service city base.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Courtyard+Marriott+Tiruchirappalli"
+              },
+              {
+                "name": "Sangam Hotel Trichy",
+                "note": "Established city option.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sangam+Hotel+Trichy"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Srirangam+Tamil+Nadu"
+          },
+          {
+            "name": "Thanjavur & the Great Living Chola Temples",
+            "eyebrow": "Chola architecture",
+            "history": "The Chola heartland contains three UNESCO-listed temples usually grouped as the Great Living Chola Temples: Brihadisvara at Thanjavur, Gangaikondacholapuram and Airavatesvara at Darasuram. Seen together, they reveal imperial ambition, ritual continuity and extraordinary stone architecture.",
+            "thingsIntro": "Do not stop after Brihadisvara. With a car, continue through Darasuram and Gangaikondacholapuram so that the Chola story becomes a landscape rather than a single monument.",
+            "spots": [
+              {
+                "name": "Brihadisvara Temple",
+                "note": "Monumental Chola temple commissioned under Rajaraja I.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Brihadisvara+Temple+Thanjavur"
+              },
+              {
+                "name": "Airavatesvara Temple, Darasuram",
+                "note": "Highly refined later Chola temple with remarkable sculpture.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Airavatesvara+Temple+Darasuram"
+              },
+              {
+                "name": "Gangaikondacholapuram",
+                "note": "Imperial temple and former capital associated with Rajendra I.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Gangaikondacholapuram+Temple"
+              },
+              {
+                "name": "Thanjavur Palace complex",
+                "note": "Palace, museum and library collections in the old city.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thanjavur+Maratha+Palace"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Svatma Thanjavur",
+                "note": "Heritage-oriented boutique hotel.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Svatma+Thanjavur"
+              },
+              {
+                "name": "Mantra Koodam - CGH Earth",
+                "note": "Village-style resort near Kumbakonam, useful for the Chola circuit.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mantra+Koodam+Kumbakonam"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thanjavur+Tamil+Nadu"
+          },
+          {
+            "name": "Mahabalipuram",
+            "eyebrow": "Pallava shore · rock-cut monuments",
+            "history": "Mahabalipuram, or Mamallapuram, preserves a remarkable Pallava-period ensemble of rock-cut caves, monolithic rathas, relief sculpture and structural temples beside the Bay of Bengal.",
+            "thingsIntro": "A full day allows the monuments to be seen in sequence, followed by the shore in softer evening light.",
+            "spots": [
+              {
+                "name": "Shore Temple",
+                "note": "Iconic structural temple facing the Bay of Bengal.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Shore+Temple+Mahabalipuram"
+              },
+              {
+                "name": "Pancha Rathas",
+                "note": "Group of monolithic rock-cut shrines.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pancha+Rathas+Mahabalipuram"
+              },
+              {
+                "name": "Descent of the Ganges / Arjuna’s Penance",
+                "note": "Monumental open-air relief.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Arjuna+Penance+Mahabalipuram"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Taj Fisherman’s Cove Resort & Spa",
+                "note": "Coastal resort north of Mahabalipuram.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Taj+Fishermans+Cove+Chennai"
+              },
+              {
+                "name": "Kaldan Samudhra Palace",
+                "note": "Large resort near Mahabalipuram.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kaldan+Samudhra+Palace"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mahabalipuram+Tamil+Nadu"
+          },
+          {
+            "name": "Chennai",
+            "eyebrow": "Madras · coast · modern metropolis",
+            "history": "Chennai brings together the colonial history of Madras, older temple neighbourhoods, music and dance institutions and a vast contemporary South Indian metropolis.",
+            "thingsIntro": "Use Chennai as both a final cultural stop and the practical international departure city.",
+            "spots": [
+              {
+                "name": "Government Museum Chennai",
+                "note": "Major archaeological and art collections, including celebrated South Indian bronzes.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Government+Museum+Chennai"
+              },
+              {
+                "name": "Mylapore & Kapaleeshwarar Temple",
+                "note": "Historic neighbourhood and living temple landscape.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kapaleeshwarar+Temple+Chennai"
+              },
+              {
+                "name": "San Thome Basilica",
+                "note": "Important Christian landmark associated with St. Thomas traditions.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=San+Thome+Basilica+Chennai"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Taj Connemara",
+                "note": "Historic central hotel.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Taj+Connemara+Chennai"
+              },
+              {
+                "name": "The Leela Palace Chennai",
+                "note": "Luxury seafront hotel.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Leela+Palace+Chennai"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chennai+India"
+          }
+        ]
+      },
+      {
+        "name": "Across the Western Ghats",
+        "eyebrow": "North Kerala · Mysuru · Bengaluru",
+        "route": "Kannur → Wayanad → Mysuru → Bengaluru",
+        "recommendedDuration": "6–8 days recommended",
+        "possibleDuration": "5 days possible",
+        "bestFor": "Forests · palaces · a gentler overland route",
+        "description": "This route turns north through Kerala before crossing the Western Ghats into Karnataka. It combines the coast and highlands with Wayanad’s forests, Mysuru’s royal urban history and Bengaluru as a lively final city and convenient international gateway.",
+        "travelNotes": "Road travel is useful through Wayanad and the ghat crossings. Rail becomes more useful again around Mysuru and Bengaluru. Keep travel times generous because mountain roads are part of the landscape but can be slow.",
+        "departure": "Finish in Bengaluru for extensive domestic and international flight connections, including useful onward options toward Europe.",
+        "landmarks": [
+          {
+            "name": "Kannur",
+            "eyebrow": "Malabar coast · ritual traditions",
+            "history": "Kannur and the wider North Malabar region have a distinct history shaped by maritime trade, colonial forts and ritual traditions including Theyyam.",
+            "thingsIntro": "If the season allows, a respectfully arranged Theyyam visit can be unforgettable; otherwise combine the coast with the fort and old-town landscapes.",
+            "spots": [
+              {
+                "name": "St. Angelo Fort",
+                "note": "Seafront fort reflecting successive colonial powers on the Malabar coast.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=St+Angelo+Fort+Kannur"
+              },
+              {
+                "name": "Muzhappilangad Beach",
+                "note": "Long beach south of Kannur.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Muzhappilangad+Beach"
+              },
+              {
+                "name": "Theyyam performance locations",
+                "note": "Highly seasonal and temple-specific; arrange locally and respectfully.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Theyyam+Kannur"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Neeleshwar Hermitage",
+                "note": "Quiet coastal retreat further north on the Malabar coast.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Neeleshwar+Hermitage"
+              },
+              {
+                "name": "Kannur Beach House",
+                "note": "Small homestay-style option near the sea.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kannur+Beach+House"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kannur+Kerala"
+          },
+          {
+            "name": "Wayanad",
+            "eyebrow": "Highlands · forests",
+            "history": "Wayanad forms a green highland bridge between Kerala and the Deccan. Forests, plantations, archaeological sites and tribal histories distinguish it sharply from the central Kerala lowlands.",
+            "thingsIntro": "Stay two nights and choose a small number of places rather than driving continuously.",
+            "spots": [
+              {
+                "name": "Edakkal Caves",
+                "note": "Prehistoric engravings and dramatic hill setting.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Edakkal+Caves+Wayanad"
+              },
+              {
+                "name": "Thirunelli Temple",
+                "note": "Historic temple in a forested Brahmagiri setting.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thirunelli+Temple"
+              },
+              {
+                "name": "Wayanad Wildlife Sanctuary",
+                "note": "Protected forest; check current access and safari rules.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Wayanad+Wildlife+Sanctuary"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Wayanad Wild - CGH Earth",
+                "note": "Forest-oriented resort.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Wayanad+Wild+CGH+Earth"
+              },
+              {
+                "name": "Vythiri Resort",
+                "note": "Rainforest resort in the highlands.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vythiri+Resort+Wayanad"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Wayanad+Kerala"
+          },
+          {
+            "name": "Mysuru",
+            "eyebrow": "Palace city · Karnataka",
+            "history": "Mysuru was the capital of the Wodeyar kingdom and later princely state. Its palace, boulevards, markets, institutions and surrounding monuments make it one of South India’s most coherent historic cities.",
+            "thingsIntro": "Give Mysuru at least one full day and one evening. The palace is central, but the market and surrounding cultural landscape are equally important.",
+            "spots": [
+              {
+                "name": "Mysore Palace",
+                "note": "The city’s defining royal monument.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mysore+Palace"
+              },
+              {
+                "name": "Devaraja Market",
+                "note": "Historic market in the centre of Mysuru.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Devaraja+Market+Mysore"
+              },
+              {
+                "name": "Srirangapatna",
+                "note": "Island town with Mysore kingdom and Tipu Sultan history, north-east of the city.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Srirangapatna+Karnataka"
+              }
+            ],
+            "stays": [
+              {
+                "name": "Royal Orchid Metropole",
+                "note": "Heritage hotel in a former royal guesthouse.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Royal+Orchid+Metropole+Mysore"
+              },
+              {
+                "name": "Radisson Blu Plaza Mysore",
+                "note": "Contemporary full-service option.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Radisson+Blu+Plaza+Mysore"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mysuru+Karnataka"
+          },
+          {
+            "name": "Bengaluru",
+            "eyebrow": "Garden city · modern gateway",
+            "history": "Bengaluru is now identified globally with technology, but its older layers include a fortified market town, colonial cantonment, gardens and institutions that shaped modern Karnataka.",
+            "thingsIntro": "Use Bengaluru as a final urban pause rather than only an airport transfer.",
+            "spots": [
+              {
+                "name": "Bangalore Palace",
+                "note": "Nineteenth-century palace associated with the Wodeyar dynasty.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bangalore+Palace"
+              },
+              {
+                "name": "Lalbagh Botanical Garden",
+                "note": "Historic botanical garden and one of the city’s great green spaces.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lalbagh+Bangalore"
+              },
+              {
+                "name": "National Gallery of Modern Art Bengaluru",
+                "note": "Useful final cultural stop before departure.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=NGMA+Bengaluru"
+              }
+            ],
+            "stays": [
+              {
+                "name": "The Oberoi Bengaluru",
+                "note": "Garden hotel on MG Road.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Oberoi+Bengaluru"
+              },
+              {
+                "name": "Taj West End",
+                "note": "Historic garden property in central Bengaluru.",
+                "mapUrl": "https://www.google.com/maps/search/?api=1&query=Taj+West+End+Bengaluru"
+              }
+            ],
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bengaluru+Karnataka"
+          }
+        ]
+      }
+    ]
+  },
+  "loveResponse": {
+    "title": "What is LOVE to you?",
+    "prompt": "To us, love is everything. But what is love to you?\nShare with us your own perspective:",
+    "placeholder": "Write your answer here…",
+    "sendLabel": "Send",
+    "endpoint": "https://docs.google.com/forms/d/e/1FAIpQLSeKgcc3DQwu6iON0lGZO_zd9A7uJof9hwrBHxoaKggcdqOmcw/formResponse",
+    "fieldName": "entry.1243176609"
+  },
+  "ritualsInfo": {
+    "leftText": "In a village in Kerala, or a hotel ballroom in Hannover, or a temple courtyard in Rajasthan,  a priest recites verses that begin with the word satyena, “by truth.” The bride circles a fire. The groom takes her hand. Seven steps are walked. These acts do not merely echo the Rigveda (RV); in many cases, the words being chanted are from the Rigveda, drawn from a single hymn composed somewhere in the modern-day Punjab perhaps thirty-five centuries ago.\n\nRV 10.85, known in the tradition as the Suryasukta or the Vivahasukta (the “wedding hymn”), is the most sustained account of social and ritual life anywhere in the Rigvedic corpus. Its forty-seven verses narrate the celestial marriage of Surya (the Sun-maiden, daughter of Savitr ie Sun) to Soma, and in doing so they lay down a template for every human wedding that followed. No other hymn in the collection describes clothing, chariots, bridal attendants, apotropaic charms against evil spirits, the giving of gifts to priests, the bride’s journey to her new home, and the expectation that she will “address the assembly” as a figure of household authority. It is, in the strict sense, a liturgical script: the Grhya Sutras (the later manuals of domestic ritual) take this hymn and build an entire wedding ceremony around it, verse by verse.\n\nWhat makes this remarkable is not just the hymn’s antiquity. It is the unbroken continuity. The saptapadi (seven steps around the fire), the panigrahana (grasping of the hand), the invocation of Agni as witness: these are not revivals or reconstructions. They are the same ritual acts, performed with the same (or closely related) words, that RV 10.85 prescribes. The hymn is one of the longest-lived liturgical texts in human history. It has outlived the civilisation that composed it, the language in which it was first spoken, and many of the gods to whom it was addressed. What follows is a close reading: what the hymn says, what scholars have argued about it, and what it reveals about how the Vedic poets understood the joining of two lives.\n\nThe major steps in the wedding Ceremony is : \n\nVarapuja (honouring the groom): The bride’s family welcomes the groom, corresponding to the Rigvedic scene of Savitar bestowing Surya.\nKanyadana (gift of the maiden): The father gives away the bride, echoing RV 10.85.9 where Savitar bestows his daughter.\nPanigrahana (hand-grasping): The groom takes the bride’s right hand, formalised in the Grhya Sutras from AV 14.1.48.\nAgni Parikrama (circumambulation of fire): The couple circles the sacred fire, with Agni as witness, directly drawn from the Rigvedic insistence on Agni as “leader of the train” (RV 10.85.8).\nSaptapadi (seven steps): The couple takes seven steps together, each representing a vow. The Paraskara Grhya Sutra (I.8.1-2) prescribes seven steps northward, each with its own invocation.\nLaja Homa (offering of parched grain): The bride offers grain into the fire, a rite that echoes the broader Vedic fire ritual tradition.\nAshmarohana (stepping on a stone): The bride places her foot on a stone, symbolising steadfastness\n",
+    "rightText": "sakhā saptapadā bhava\nsakhāyau saptapadā babhūva\nsakhyaṃ te gameyam\nsakhyāt te mā yoṣam\nsakhyān me mā yoṣṭhāḥ\n\nBe my companion, having walked seven steps.\nHaving walked seven steps, we have become companions.\nMay I attain your friendship.\nMay I not be separated from your friendship.\nMay you not be separated from mine.\n\n\nSaptapadi (The  Seven Wows)\n\n**१ ॥ ॐ इष एकपदी भव ॥**  \nWith the promise to nourish each other,  \nI take this first step with you.\n\n**२ ॥ ॐ ऊर्जे द्विपदी भव ॥**  \nWith determination to grow together in strength physical,  \nmental & spiritual, I take this second step with you.\n\n**३ ॥ ॐ रायस्पोषाय त्रिपदी भव ॥**  \nWith the promise to preserve our wealth  \n& prosperity, I take this third step with you.\n\n**४ ॥ ॐ मायोभव्याय चतुष्पदी भव ॥**  \nWith the vow to serve you with happiness & harmony,  \nI take this fourth step with you.\n\n**५ ॥ ॐ प्रजाभ्यः पंचपदी भव ॥**  \nWith the promise to care for our healthy long lived children,  \nI take this fifth step with you.\n\n**६ ॥ ॐ ऋतुभ्यः षट्पदी भव ॥**  \nWith the vow to be together forever in all responsibilities,  \nI take this sixth step with you.\n\n**७ ॥ ॐ सखे सप्तपदी भव ॥**  \nWith the promise of everlasting and true companionship,  \nI take this seventh step with you.",
+    "creditText": "",
+    "creditUrl": "",
+    "left": {
+      "openingText": "In a village in Kerala, or a hotel ballroom in Hannover, or a town square in Noale, a priest recites verses that begin with the word satyena, “by truth.” The bride circles a fire. The groom takes her hand. Seven steps are walked. These acts do not merely echo the Rigveda (RV); in many cases, the words being chanted are from the Rigveda, drawn from a single hymn composed somewhere in the modern-day Punjab perhaps thirty-five centuries ago.\n\nRV 10.85, known in the tradition as the Suryasukta or the Vivahasukta (the “wedding hymn”), is the most sustained account of social and ritual life anywhere in the Rigvedic corpus. Its forty-seven verses narrate the celestial marriage of Surya (the Sun-maiden, daughter of Savitr ie Sun) to Soma, and in doing so they lay down a template for every human wedding that followed. No other hymn in the collection describes clothing, chariots, bridal attendants, apotropaic charms against evil spirits, the giving of gifts to priests, the bride’s journey to her new home, and the expectation that she will “address the assembly” as a figure of household authority. It is, in the strict sense, a liturgical script: the Grhya Sutras (the later manuals of domestic ritual) take this hymn and build an entire wedding ceremony around it, verse by verse.\n\nWhat makes this remarkable is not just the hymn’s antiquity. It is the unbroken continuity. The saptapadi (seven steps around the fire), the panigrahana (grasping of the hand), the invocation of Agni (fire) as witness: these are not revivals or reconstructions. They are the same ritual acts, performed with the same (or closely related) words, that RV 10.85 prescribes. The hymn is one of the longest-lived liturgical texts in human history. It has outlived the civilisation that composed it, the language in which it was first spoken, and many of the gods to whom it was addressed. What follows is a close reading: what the hymn says, what scholars have argued about it, and what it reveals about how the Vedic poets understood the joining of two lives. So the bride and the groom are embodied as two celestial beings about to merge as the poem is sung in the background. That concludes the sacred wedding.",
+      "openingAlign": "left",
+      "openingTitle": "From Poem to Wedding",
+      "storyText": "Before the poem becomes the story of a human wedding, it begins in the cosmos.\nSūryā, the solar daughter, is preparing to leave her home as the bride. Around her, ordinary objects become cosmic things. Her bridal journey is imagined through images: thought becomes her bridal couch, sight becomes an adornment for her eyes, and mind transforms into her chariot.  Raibhī, Nārāśaṃsī, Gāthā (different types of music, sacred verse, praises, songs) accompany her as bridesmaids. Sky and earth become her bridal chest of treasure. \n\nBefore the bride embraces the groom in his human form, she is married to the Soma (divine elixir of the moon), then the Gandarva (Divine lover), and the Agni ( Fire). \n\nPoem says\n       \"Soma first obtained the bride; the Gandharva obtained her next. Agni was your third husband; your fourth husband is born of man\"\n\nThe twin Aśvins (twin horsemen in the Aries constellation) appear as the groomsmen, while Savitṛ (Sun) sends the daughter forth. Soma represents infancy and nourishment (milk), waxing and waning of the moon is imaged as seasons; Gandharva represents adolescence, passion, and the arts (music, dance); Agni represents the mental maturity and readiness for marriage. The bridal chariot carries her away from the world she knows and towards another household. \n\n\n\nBeneath all this cosmic imagery lies something deeply human: a daughter is leaving home.\nThe hymn worries about the road before her. It asks that dangers withdraw from her path. It blesses the journey and surrounds the bride with divine protection as she crosses the threshold between one household and another. Eventually the celestial imagery gives way to the human ceremony. Agni, the sacred fire, stands at the threshold between them. The groom takes the bride's hand and asks that they reach old age together. They together take the seven steps of life around the sacred fire, chanting seven wows, while the groom leads the first 4 steps and steps back for the bride to lead the rest, symbolising how life takes its turns and how one has to lead the family when the other feels weaker. \n\nThe poem encloses, by vesting the bride supreme power in her new household, the bride is told to “rule as samrajni (an empress)\", over her new life. She is told to be sovereign for herself in the new family with her husband's parents and his siblings. Whether this reflects actual social practice or an idealised ritual aspiration is debated, but the language is unambiguous. The Vedic wedding hymn confers authority, not merely permission, on the bride within her new household. The closing verses imagine husband and wife remaining together through the full span of life, surrounded by children and grandchildren. \n\n\nA marriage imagined across the cosmos has become something profoundly human: a daughter leaves home, a journey begins, a hand is taken, and two people are asked to grow old together",
+      "storyTitle": "The Celestial Marriage",
+      "bridgeText": "The celestial story has now become a human ritual for the last 35 centuries.",
+      "hymnTitle": "Within the Hymn",
+      "hymnSubtitle": "Explore the Sūryā Sūkta · Ṛgveda 10.85",
+      "hymnButtons": {
+        "cosmic": {
+          "heading": "“Truth is the base that bears the earth; by Surya are the celestial world sustained. By Law the Adityas stand secure, and Soma holds his place in cosmos.”",
+          "title": "COSMIC ARCHITECTURE ",
+          "verses": "Verses 1-5",
+          "body": "The wedding hymn begins not with bride or groom, but with the structure of the universe. Truth, cosmic order, Earth, the Sun and Moon establish the world in which the marriage will unfold.\nThis opening deliberately places marriage within a larger cosmos.  Before Sūryā begins her journey as a bride, the poet first establishes the universe around her.\nSoma dominates these opening verses. The poem plays with the distinction between the Soma known ritually on earth (sacred drink) and a celestial Soma; this section is also important in the history of Soma's developing association with the Moon.",
+          "source": ""
+        },
+        "preparation": {
+          "title": "The Bride’s Preparation",
+          "verses": "Verses 6-12",
+          "heading": "“Thought was the pillow of her couch, sight was the unguent for her eyes; her treasury was earth and sky when Surya went unto her husband\"”",
+          "body": "The cosmic prologue ends at verse 5. From verse 6, the hymn shifts register, and we are suddenly in the middle of a wedding. Raibhi is the bride’s dear friend; Narasamsi leads her home. The poet names her attendants, her garments, her cosmetics. \n\n Thought became her pillow. The “unguent for her eyes” is at once a literal cosmetic practice (collyrium, anjana, applied to a bride’s eyes) and a cosmic metaphor: sight itself adorns the solar daughter. The sky and earth became her treasures.  The bridal chariot is described in verse 8 with similar doubling: “Hymns were the cross-bars of the pole, Kurira-metre decked the chariot, mind was her wagon, and sky was her canopy, and  Agni (fire) was leader of the carriage. Soma was the bridegroom, the Aśvins were both wooers, when Savitar gave Sūryā to her husband, as she pronounced (her vow) with her (whole)mind. The chariot of the cosmic bride is constructed from liturgical elements: chandas (metre) forms its frame; Vedic hymns are its crossbars."
+        },
+        "chariot": {
+          "title": "The Chariot and the Stars",
+          "verses": "Verses 13 to 19",
+          "heading": "“Surya’s bridal procession, which Savitur despatched, has advanced; the oxen are driven forth in Magha; she is borne to her husband’s house in the Arjuni constellations.”",
+          "body": "\nThe bridal procession is described in astronomical terms. Verse 13 names specific naksatras (lunar mansions): “In Magha days are oxen slain, in Arjunis they wed the bride.” The reference to Magha and Arjuni (Phalguni) places the wedding at a particular point in the lunar calendar, linking the ritual to the Vedic astronomical system that governed the timing of sacrifices and rites of passage.\n\nThe chariot itself is described in verse 20 with remarkable specificity:\n“Ascend the chariot made of kims’uka wood and s’almali, all-shaped, gold-hued, with strong wheels, light-rolling, bound for the world of life immortal; make for thy lord a happy bridal journey.”\n\nThe kimsuka (Butea monosperma, the flame-of-the-forest, known for its brilliant orange-red flowers) and salmali (Bombax ceiba, the silk-cotton tree) are not arbitrary. Both trees were associated with fertility and auspiciousness in Vedic culture. The chariot is “gold-hued” (hiranyavarnam), establishing the solar colour that marks the bride throughout the hymn.\n\nVerses 14 to 16 introduce a puzzling detail: the Asvins arrive on a three-wheeled chariot, but one wheel is hidden. “Where was one chariot wheel of yours?” the poet asks. The Brahmans “who are skilled in highest truths” know its location (10.85.16). This takes this as a reference to the invisible or esoteric dimension of ritual knowledge: what is visible in the ceremony is not all there is."
+        },
+        "journey": {
+          "title": "The Bridal Journey & Protections",
+          "verses": "Verses 28 to 35",
+          "heading": "\"Let highwaymen who lie in wait not find the married couple.Let them cross over the hard place by easy roads. Let hostilities run away.\"",
+          "body": "The Vedic wedding, for all its cosmic grandeur, was also an occasion of acute anxiety. The bride was leaving her natal family. The journey was literal (by chariot, along roads that might be dangerous) and symbolic (from one ritual sphere to another). The apotropaic verses address both registers. They protect against actual bandits on the road and against invisible malevolences that might attach themselves to the bride’s garments or body.\n\n\n\n\n"
+        },
+        "threeHusbands": {
+          "title": "Three Husbands Before the Human One",
+          "verses": "Verses 40 to 41",
+          "heading": "“Soma first obtained the bride; the Gandharva obtained her next. Agni was your third husband; your fourth husband is born of man.”",
+          "body": "The three divine husbands are read as stages of a woman’s maturation. Soma represents infancy and nourishment (milk); Gandharva represents adolescence and the arts (music, dance); Agni represents the domestic fire, cooking, and readiness for marriage. Under this reading, the verse describes not sequential marriages but sequential developmental phases.\n\n The Gandharva (divine lover) appears also in verses 21 to 22, where he is directly asked to leave the bride: \n“Rise up from hence, Visvavasu: with reverence we worship thee. Seek thou another willing maid, and with her husband leave the bride.” \nIt ensures that the divine claimant relinquishes his hold before the human wedding proceeds. This is to symbolise that the bride should not be captivated by impulsive adolescence and make a marriage decision out of teenage passion. The union with Gandharva depicts the intense, passionate mind of the adolescent girl. \n\n"
+        },
+        "authority": {
+          "title": "The Bride’s Authority",
+          "verses": "Verses 26 to 27 and 42 to 47",
+          "heading": "“Go to your home, to be the lady of the house; with authority you will address the vidatha. Prosper here, beloved, with your children; in your home, watch over the household.”",
+          "body": "Perhaps the most striking passage in the hymn, for a modern reader, is the instruction given to the bride as she arrives at her new home.\n\nThe word vidatha is significant. It refers to a public assembly or gathering where important matters were discussed. The bride is not merely told to manage domestic affairs in private; she is told she will “address the assembly” with authority, even in old age. This is a public role, a recognition of social voice.\n\nThe closing verses reinforce this:\n\nVerse 42: “Be ye not parted; dwell ye here, reach the full time of human life. With sons and grandsons sport and play, rejoicing in your own abode.”\nVerse 45: “O Bounteous Indra, make this bride blest in her sons and fortunate. Vouchsafe to her ten sons, and make her husband the eleventh man.”\nVerse 46: “Over thy husband’s father and thy husband’s mother bear full sway. Over the sister of thy husband,  over his brothers rule sovereign.”\n"
+        },
+        "handFire": {
+          "title": "The Hand & the Fire",
+          "verses": "Verses 36 -39",
+          "heading": "\"I grasp your hand for good fortune, so that with me as your husband you will reach old age.\"",
+          "body": "Here the celestial imagery gives way to one of the most enduring gestures of the Vedic wedding: the taking of the bride’s hand.\nBefore Agni, the sacred fire, the groom takes Sūryā’s hand and asks that they may grow old together. The gods are invoked not merely as witnesses, but as those who have brought the bride and groom together and entrusted them to a shared household life.\nAgni stands at the threshold between the divine and the human. As the sacrificial fire, he carries offerings towards the gods; within the wedding hymn, he also accompanies the bride on her passage towards human marriage. The hand taken before the fire therefore marks more than a union between two people: it is the moment when the celestial story enters the human home.\n\nThe gesture survives in the Vedic marriage rite as Pāṇigrahaṇa — “the taking of the hand.” In RV 10.85.36, the groom says:\n\n“I take your hand for good fortune,\nso that with me, your husband,\nyou may reach old age.”"
+        }
+      },
+      "atharvaveda": {
+        "title": "Atharva Veda: A parallel Wedding Poem",
+        "reference": "AV 14.1-2",
+        "body": "The Rigvedic wedding hymn does not stand alone. Atharva Veda Book 14 contains two extended hymns (AV 14.1 and 14.2) that closely parallel and expand upon RV 10.85. Many verses are shared verbatim between the two collections, while the Atharva Veda adds material that is more explicitly concerned with the physical details of the ceremony.\n\nAV 14.1.1, for example, opens with the same cosmological declaration as RV 10.85.1: “By truth is the earth established; by the sun is the sky established.” But the Atharva Veda adds extended passages on the hand-grasping ceremony (panigrahana): “Wherewith Agni grasped the right hand of this earth, therewith grasp I thy hand; do not stagger in company with me, with both progeny and riches” (AV 14.1.48). This is a direct ritual instruction, specifying what the groom says as he takes the bride’s hand.",
+        "comparison": ""
+      }
+    },
+    "right": {
+      "title": "The Wedding Ceremony ",
+      "align": "left",
+      "intro": "The Grhya Sutras (literally “threads of domestic ritual”), composed roughly between the eighth and fourth centuries BCE, take the raw material of RV 10.85 and the Atharva Veda wedding hymns and systematise them into step-by-step procedural manuals. The most important of these for the wedding ceremony are the Ashvalayana Grhya Sutra (associated with the Rigveda), the Paraskara Grhya Sutra (associated with the Shukla Yajurveda), and the Gobhila Grhya Sutra (associated with the Samaveda). The main steps during the wedding day are briefed below.",
+      "rituals": {
+        "varapuja": {
+          "title": "Varapūjā",
+          "subtitle": "Honouring the groom",
+          "body": "The bride’s family welcomes the groom, corresponding to the Rigvedic scene of Savitar bestowing Surya. The brother of the bride washes the feet of the groom with  milk, saffron, and roses, then with holy water, wipes with silk towel. He then adorns the feet with flowers and new royal shoes (methiyadi). The groom is invited in a regal procession, with the bride's family accompanying him with flowers and fragrances to adorn his way to the groom's seat. "
+        },
+        "kanyadana": {
+          "title": "Kanyādāna",
+          "subtitle": "Gift of the maiden",
+          "body": "The father gives away the bride, echoing RV 10.85.9, where Savitar (Sun) bestows his daughter.The bride is made to sit on her father’s lap and is given away as gift by him, to the bridegroom."
+        },
+        "panigrahana": {
+          "title": "Pāṇigrahaṇa",
+          "subtitle": "The taking of the hand",
+          "body": "The groom takes the bride’s right hand, formalised in the Grhya Sutras from AV 14.1.4"
+        },
+        "agniParikrama": {
+          "title": "Agni Parikrama",
+          "subtitle": "Around the sacred fire",
+          "body": "The couple circles the sacred fire, with Agni as witness, directly drawn from the Rigvedic insistence on Agni as “leader of the train” (RV 10.85.8)."
+        },
+        "saptapadi": {
+          "title": "Saptapadī — The Seven Steps",
+          "subtitle": "The seven vows",
+          "intro": "The couple takes seven steps together, each representing a vow. The Paraskara Grhya Sutra (I.8.1-2) prescribes seven steps northward, each with its own invocation. The groom leads the first 4 steps, and then he steps back for the bride to lead the rest. This is to symbolise the equality of power and responsibility in the marriage.",
+          "steps": {
+            "step1": {
+              "sanskrit": "१ ॥ ॐ इष एकपदी भव ॥",
+              "meaning": "With the promise to nourish each other,\nI take this first step with you."
+            },
+            "step2": {
+              "sanskrit": "२ ॥ ॐ ऊर्जे द्विपदी भव ॥",
+              "meaning": "With the determination to grow together in physical, mental and spiritual strength,\nI take this second step with you."
+            },
+            "step3": {
+              "sanskrit": "३ ॥ ॐ रायस्पोषाय त्रिपदी भव ॥",
+              "meaning": "With the promise to preserve our wealth and prosperity,\nI take this third step with you."
+            },
+            "step4": {
+              "sanskrit": "४ ॥ ॐ मायोभव्याय चतुष्पदी भव ॥",
+              "meaning": "With the vow to live together in happiness and harmony,\nI take this fourth step with you."
+            },
+            "step5": {
+              "sanskrit": "५ ॥ ॐ प्रजाभ्यः पंचपदी भव ॥",
+              "meaning": "With the promise to care for our healthy and long-lived children,\nI take this fifth step with you."
+            },
+            "step6": {
+              "sanskrit": "६ ॥ ॐ ऋतुभ्यः षट्पदी भव ॥",
+              "meaning": "With the vow to remain together through all the seasons and responsibilities of life,\nI take this sixth step with you."
+            },
+            "step7": {
+              "sanskrit": "७ ॥ ॐ सखे सप्तपदी भव ॥",
+              "meaning": "With the promise of everlasting and true companionship,\nI take this seventh step with you."
+            }
+          }
+        },
+        "lajaHoma": {
+          "title": "Lājā Homa",
+          "subtitle": "The offering of grain",
+          "body": "The bride offers grain into the fire, a rite that echoes the broader Vedic fire ritual tradition."
+        },
+        "ashmarohana": {
+          "title": "Aśmārohaṇa",
+          "subtitle": "The stepping on a stone",
+          "body": "The bride places her foot on a stone, symbolising steadfastness."
+        }
+      },
+      "ritualOrder": [
+        "varapuja",
+        "kanyadana",
+        "panigrahana",
+        "agniParikrama",
+        "saptapadi",
+        "lajaHoma",
+        "ashmarohana"
+      ]
+    }
+  },
+  "credits": {
+    "title": "Credits",
+    "body": "Fresco used on the left: Couple Ajanta Caves, Unknown artist (200 BCE to 500 AD)\nFresco used on the right: Portrait of Terentius Neo, unknown artist  (50-79 AD)\nCentral Image: Giotto-inspired starry sky, inspiration: Scrovegni Chapel, 14th Century  CE, generated using ChatGPT\nLa Strada,1954, by Fellini\nGalaxia, 1973, by Sabina Balassa\nVideos by Pages:\n Page 'Love': \n       Foreground: The Little Mermaid, 1968, by  Ivan Aksenchuk\n       Background: Art, 2026, by krajamine (Bremen), Schnoor Atelier (Community: theartidote)\nPage 'The Place'\n      Foreground: Talking Hands of Travancore, 1981, by Vladimir Pekar\n      Background: Summer meadow at Dusk, 2026, by Tim Fischer\nPage 'The Rituals'\n       Background: Gita, 2016, by Nikolas Edwards (His bachelor's thesis project,  Loyola Marymount University )\nPage 'The Three Days'\n       Background Day 1: The right to express yourself, 2012, by Catherine Winder \n       Background Day 2: Dance me to the end of, 2026, by Nika Abouee\n       Background Day 3:  János vitéz [Johnny Corncob], 1973,Marcell Jankovics, Pannónia Filmstúdió\nPage 'Kerala and Beyond'\n      Background:  Art, 2026,  by Shihyen Huang\nPage 'Reception'\n       Background: Art, 2026, by Cat Marshall\nPage 'Treasure' \n       Background: Art, 2026 by Nika Abouee\n       Foreground: The Wild Swans, 1962, by Bernad Evslin\n\n\n "
+  }
+}

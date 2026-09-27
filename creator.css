@@ -1,0 +1,127 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#17110c;color:#f0e4d0}
+input,textarea,button{font:inherit}
+input,textarea{
+  width:100%;background:#efe5d3;color:#1f1710;border:1px solid #a98451;
+  padding:10px 11px;border-radius:2px
+}
+textarea{min-height:100px;resize:vertical;line-height:1.45}
+textarea.large-text{min-height:260px}
+button{background:#c69a52;color:#21170d;border:0;padding:10px 14px;cursor:pointer}
+button.secondary{background:transparent;color:#eadbc4;border:1px solid #84623b}
+.lock{min-height:100vh;display:grid;place-items:center}
+.lockbox{width:min(440px,90vw);padding:30px;border:1px solid #725331;background:#21180f}
+.creator-shell{display:grid;grid-template-columns:250px 1fr;min-height:100vh}
+.creator-sidebar{
+  position:sticky;top:0;height:100vh;padding:26px 18px;background:#120d09;border-right:1px solid #5c432b
+}
+.creator-title{font-family:Georgia,serif;font-size:22px}
+.creator-sub{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b99b70;margin:5px 0 24px}
+.creator-tab{
+  display:block;width:100%;text-align:left;margin:4px 0;padding:11px 12px;
+  background:transparent;color:#dbcbb2;border:1px solid transparent
+}
+.creator-tab:hover,.creator-tab.active{border-color:#795b36;background:#21170f;color:#fff0d3}
+.creator-main{width:min(1180px,calc(100vw - 250px));padding:0 28px 60px}
+.top{
+  position:sticky;top:0;z-index:9;background:#17110c;padding:18px 0;
+  border-bottom:1px solid #60472c;display:flex;justify-content:space-between;gap:16px;align-items:center
+}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.creator-panel{display:none}
+.creator-panel.active{display:block}
+.section{border:1px solid #60472c;padding:22px;margin:22px 0;background:#21180f}
+.section h2,.section h3{font-family:Georgia,serif;font-weight:400;margin-top:0}
+.subsection{border-top:1px solid #4e3824;margin-top:22px;padding-top:20px}
+.field{margin:13px 0}
+.field label,.upload-box>label{
+  display:block;font-size:11px;text-transform:uppercase;letter-spacing:.12em;margin-bottom:6px;color:#d5b77f
+}
+.note{font-size:12px;line-height:1.55;color:#cdbb9d}
+.upload-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:14px}
+.upload-box{border:1px dashed #6d5030;padding:14px;background:#18110b}
+.upload-status{font-size:11px;color:#bfa986;margin-top:8px;word-break:break-all}
+.media-actions{margin-top:13px}
+.event-editor{border:1px solid #513a24;padding:15px;margin:12px 0;background:#19120c}
+.check{display:flex;align-items:center;gap:8px;font-size:12px;color:#ceb995;margin:8px 0 12px}
+.check input{width:auto}
+.preview-frame{width:100%;height:700px;border:1px solid #60472c;background:white}
+@media(max-width:850px){
+  .creator-shell{grid-template-columns:1fr}
+  .creator-sidebar{position:relative;height:auto;display:flex;flex-wrap:wrap;gap:4px}
+  .creator-title,.creator-sub{width:100%}
+  .creator-tab{width:auto}
+  .creator-main{width:100%;padding:0 15px 40px}
+  .upload-grid{grid-template-columns:1fr}
+  .top{position:relative;align-items:flex-start;flex-direction:column}
+}
+
+
+/* V7.2 destination editor */
+.destination-editor-card{
+  position:relative;
+  padding-top:20px;
+}
+.destination-editor-card>h3{
+  color:#e2c48f;
+  margin-bottom:12px;
+}
+
+
+/* V7.3 — nested Kerala / Beyond editors */
+.linked-editor-block{
+  margin:18px 0;
+  padding:14px;
+  border:1px solid rgba(187,151,91,.2);
+  background:rgba(255,255,255,.015);
+}
+.linked-editor-head h4{
+  margin:0 0 10px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:400;
+  color:#ddbd86;
+}
+.linked-editor-row{
+  margin:10px 0;
+  padding:12px;
+  border-left:2px solid rgba(198,159,94,.25);
+  background:rgba(0,0,0,.10);
+}
+.compact-add{
+  margin-top:6px;
+}
+.journey-editor-card{
+  margin:24px 0 34px;
+  padding:20px;
+  border:1px solid rgba(206,168,103,.32);
+  background:rgba(49,34,23,.15);
+}
+.journey-editor-title{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:15px;
+  margin-bottom:15px;
+}
+.journey-editor-title h3{
+  margin:0;
+  color:#e2c48f;
+}
+.journey-landmark-editor{
+  margin-top:24px;
+  padding-top:18px;
+  border-top:1px solid rgba(205,167,103,.23);
+}
+.journey-landmark-editor>.landmark-editor-list>.destination-editor-card{
+  margin:18px 0;
+  background:rgba(0,0,0,.12);
+}
+
+/* Ritual order editor — added without changing the public Rituals design */
+.ritual-editor-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:10px}
+.ritual-editor-head h3{margin:0}
+.ritual-order-actions{display:flex;gap:7px;flex-wrap:wrap}
+.ritual-order-actions button{padding:7px 10px}
+.ritual-order-actions button:disabled{opacity:.35;cursor:default}
+@media(max-width:700px){.ritual-editor-head{align-items:flex-start;flex-direction:column}}
