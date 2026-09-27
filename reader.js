@@ -505,12 +505,39 @@ function linkifyReference(text,url){
   return wrap;
 }
 
+/* Published foreground films on GitHub Pages. Localhost keeps using Creator/IndexedDB. */
+const PUBLISHED_PAGE_MEDIA={
+  'page-story': {
+    video: 'Artvideos/sovietMermaid.mp4'
+  },
+  'page-venue': {
+    video: 'Artvideos/Легенда! Говорящие руки Траванкора (1981) со Смоктуновским.mp4',
+    subtitle: 'Artvideos/The_Speaking_Hands_of_Travancore_1981_English.vtt'
+  },
+  'page-cabinet': {
+    video: 'Artvideos/Excerpt from Hans Christian Andersens The Wild Swans directed by Bernard Evslin (1962)%23sovietun.mp4'
+  }
+};
+
+const PUBLISHED_HOME_MEDIA={
+  note: 'Artvideos/Everything has a purpose (The Fool - Gelsomina).mp4',
+  short: 'Artvideos/Sabin Balasa -The Galaxy (1973).mp4'
+};
+
+function usePublishedMedia(){
+  return location.hostname.toLowerCase().endsWith('github.io');
+}
+
 async function buildFeaturePlayer(key, meta, target, poster=''){
   if(!target) return;
   target.innerHTML='';
+
+  const published=usePublishedMedia() ? PUBLISHED_PAGE_MEDIA[key] : null;
   let saved=null;
-  try{ saved=await WeddingMediaDB.get(key); }catch(e){}
-  if(!saved?.videoBlob) return;
+  if(!published){
+    try{ saved=await WeddingMediaDB.get(key); }catch(e){}
+  }
+  if(!published && !saved?.videoBlob) return;
 
   const figure=document.createElement('figure');
   figure.className='feature-film';
@@ -521,11 +548,23 @@ async function buildFeaturePlayer(key, meta, target, poster=''){
   video.preload='metadata';
   if(poster) video.poster=poster;
 
-  const vurl=URL.createObjectURL(saved.videoBlob);
-  FEATURE_OBJECT_URLS.push(vurl);
-  video.src=vurl;
+  if(published){
+    video.src=published.video;
+  }else{
+    const vurl=URL.createObjectURL(saved.videoBlob);
+    FEATURE_OBJECT_URLS.push(vurl);
+    video.src=vurl;
+  }
 
-  if(saved.subtitleBlob){
+  if(published?.subtitle){
+    const track=document.createElement('track');
+    track.kind='subtitles';
+    track.srclang='en';
+    track.label='English';
+    track.default=true;
+    track.src=published.subtitle;
+    video.appendChild(track);
+  }else if(saved?.subtitleBlob){
     const track=document.createElement('track');
     track.kind='subtitles';
     track.srclang='en';
@@ -602,10 +641,13 @@ async function openHomeFilm(kind){
   filmKicker.textContent=meta.kicker || (kind==='note'?'A Note From Us':'A Short Film');
   filmTitle.textContent=(meta.title||'').trim() || (kind==='note'?'A letter in moving images':'A small film for our guests');
 
+  const published=usePublishedMedia() ? PUBLISHED_HOME_MEDIA[kind] : null;
   let saved=null;
-  try{saved=await WeddingMediaDB.get(`home-${kind}`)}catch(e){}
+  if(!published){
+    try{saved=await WeddingMediaDB.get(`home-${kind}`)}catch(e){}
+  }
 
-  if(saved?.videoBlob){
+  if(published || saved?.videoBlob){
     filmMessage.textContent='';
 
     const video=document.createElement('video');
@@ -614,11 +656,15 @@ async function openHomeFilm(kind){
     video.preload='metadata';
     video.autoplay=true;
 
-    const vurl=URL.createObjectURL(saved.videoBlob);
-    HOME_FILM_URLS.push(vurl);
-    video.src=vurl;
+    if(published){
+      video.src=published;
+    }else{
+      const vurl=URL.createObjectURL(saved.videoBlob);
+      HOME_FILM_URLS.push(vurl);
+      video.src=vurl;
+    }
 
-    if(saved.subtitleBlob){
+    if(!published && saved?.subtitleBlob){
       const track=document.createElement('track');
       track.kind='subtitles';
       track.srclang='en';
