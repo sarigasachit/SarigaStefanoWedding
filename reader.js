@@ -155,6 +155,12 @@ const HOME_CREDITS_BOX={x:1400,y:865,w:120,h:65};
 
 function nativeHomeTransform(){
   const cw=window.innerWidth, ch=window.innerHeight;
+  /* On portrait phones, keep the locked artwork at screen height and let the
+     homepage scroll horizontally. Desktop/tablet behaviour stays unchanged. */
+  if(cw < 700 && ch > cw){
+    const scale=ch/HOME_H;
+    return {scale,ox:0,oy:0};
+  }
   const scale=Math.min(cw/HOME_W,ch/HOME_H);
   const rw=HOME_W*scale, rh=HOME_H*scale;
   return {scale,ox:(cw-rw)/2,oy:(ch-rh)/2};
@@ -185,6 +191,13 @@ document.querySelectorAll('.home-nav-hit').forEach((el,i)=>{
   placeNative(document.querySelector('[data-home-role="note"]'),HOME_MEDIA_BOXES.note);
   placeNative(document.querySelector('[data-home-role="short"]'),HOME_MEDIA_BOXES.short);
   placeNative(document.querySelector('.credits-hit'),HOME_CREDITS_BOX);
+
+  if(window.innerWidth < 700 && window.innerHeight > window.innerWidth && !home.dataset.mobileCentered){
+    requestAnimationFrame(()=>{
+      home.scrollLeft=Math.max(0,(home.scrollWidth-home.clientWidth)/2);
+      home.dataset.mobileCentered='1';
+    });
+  }
 }
 window.addEventListener('resize',positionHomeInteractions);
 homeImg?.addEventListener('load',positionHomeInteractions);
@@ -545,7 +558,7 @@ async function buildFeaturePlayer(key, meta, target, poster=''){
   const video=document.createElement('video');
   video.controls=true;
   video.playsInline=true;
-  video.preload='metadata';
+  video.preload=published ? 'auto' : 'metadata';
   if(poster) video.poster=poster;
 
   if(published){
@@ -653,7 +666,7 @@ async function openHomeFilm(kind){
     const video=document.createElement('video');
     video.controls=true;
     video.playsInline=true;
-    video.preload='metadata';
+    video.preload=published ? 'auto' : 'metadata';
     video.autoplay=true;
 
     if(published){
