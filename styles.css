@@ -951,7 +951,7 @@ a.linked-place-item:hover strong{
 /* Mobile homepage — preserve the locked artwork, enlarge it to screen height,
    and allow horizontal exploration instead of shrinking it with black bars. */
 @media (max-width:699px) and (orientation:portrait){
-  .home-page{overflow-x:auto;overflow-y:auto;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y}
+  .home-page{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;touch-action:pan-x}
   .home-bg{left:0;right:auto;top:0;bottom:auto;width:auto;height:100vh;max-width:none;object-fit:contain;object-position:left center}
   .home-interactions{width:calc(100vh * 1.5483870968);min-width:calc(100vh * 1.5483870968);height:100vh}
   .home-page::after{position:fixed}

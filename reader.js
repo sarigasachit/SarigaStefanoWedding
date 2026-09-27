@@ -154,31 +154,25 @@ const HOME_MEDIA_BOXES={note:{x:25,y:385,w:205,h:410},short:{x:1320,y:680,w:180,
 const HOME_CREDITS_BOX={x:1400,y:865,w:120,h:65};
 
 function nativeHomeTransform(){
-  /* Map the transparent hit areas to the ACTUAL rendered homepage image.
-     The approved artwork is 1586 px wide, while the historical click-map
-     coordinates were authored on a 1536 × 992 reference.  Using separate
-     X/Y scales keeps every word/card aligned on phones as well as desktop. */
-  const rect=homeImg?.getBoundingClientRect();
-  if(rect && rect.width && rect.height){
-    return {
-      scaleX:rect.width/HOME_W,
-      scaleY:rect.height/HOME_H,
-      ox:rect.left + window.scrollX,
-      oy:rect.top + window.scrollY
-    };
-  }
   const cw=window.innerWidth, ch=window.innerHeight;
+  /* On portrait phones, keep the locked artwork at screen height and let the
+     homepage scroll horizontally. Desktop/tablet behaviour stays unchanged. */
+  if(cw < 700 && ch > cw){
+    const scale=ch/HOME_H;
+    return {scale,ox:0,oy:0};
+  }
   const scale=Math.min(cw/HOME_W,ch/HOME_H);
-  return {scaleX:scale,scaleY:scale,ox:(cw-HOME_W*scale)/2,oy:(ch-HOME_H*scale)/2};
+  const rw=HOME_W*scale, rh=HOME_H*scale;
+  return {scale,ox:(cw-rw)/2,oy:(ch-rh)/2};
 }
 function placeNative(el,b){
   if(!el||!b)return;
-  const {scaleX,scaleY,ox,oy}=nativeHomeTransform();
+  const {scale,ox,oy}=nativeHomeTransform();
   Object.assign(el.style,{
-    left:(ox+b.x*scaleX)+'px',
-    top:(oy+b.y*scaleY)+'px',
-    width:(b.w*scaleX)+'px',
-    height:(b.h*scaleY)+'px'
+    left:(ox+b.x*scale)+'px',
+    top:(oy+b.y*scale)+'px',
+    width:(b.w*scale)+'px',
+    height:(b.h*scale)+'px'
   });
 }
 function positionHomeInteractions(){
